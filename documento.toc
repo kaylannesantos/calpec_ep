@@ -1,0 +1,42 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}\relax 
+\babel@toc {brazil}{}\relax 
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{13}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Objetivo Geral}{14}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Objetivos Específicos}{14}{subsection.1.1.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Fundamentação Teórica}}{15}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Código Penal (CP)}{15}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Lei de Execução Penal(LEP)}{16}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Processo de Execução Criminal(PEC)}{17}{section.2.3}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Trabalhos Relacionados}}{20}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Calculadora de progressão da pena}{20}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Calculadora de prescrição da pretensão executória}{20}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Calculadora de Execução Penal}{21}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Calculadora de execução penal}{22}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Calculadora de execução penal Online}{22}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Comparação Trabalhos Relacionados}{23}{section.3.6}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{CalPEC}}{25}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Funcionalidades Principais}{25}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Tela de Login}{26}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Tela Inicial}{26}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Registrar Apenado}{27}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Registrar Advogado}{28}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}Registrar Execução Penal}{29}{subsection.4.1.5}%
+\contentsline {section}{\numberline {4.2}Exemplo Prático}{31}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Tecnologias Utilizadas}{33}{section.4.3}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Cronograma}}{34}{chapter.5}%
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{35}{section*.28}%
+\cftinsert {AAA}
+\renewcommand *{\cftappendixname }{ANEXO \space }

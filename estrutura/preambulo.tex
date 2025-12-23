@@ -1,0 +1,65 @@
+%% Preambulo LaTeX: Define classes e características do documento
+
+
+
+
+%% Tipografia
+%% Abra este arquivo e selecione uma das opções de fonte nele. A padrão é Times.
+\input{configuracoes/tipografia}
+
+
+
+%% Pacotes usados pelo documento (se não entender não mexa, hehehe)
+\usepackage{courier}                    % Permite a utilização da fonte Courier (para códigos-fonte)
+\usepackage[T1]{fontenc}				% Seleção de códigos de fonte.
+\usepackage[utf8]{inputenc}				% Codificação do documento (conversão automática dos acentos)
+\usepackage{indentfirst}				% Indenta o primeiro parágrafo de cada seção.
+\usepackage{nomencl} 					% Usado pela Lista de símbolos
+\usepackage{color}						% Controle das cores
+\usepackage{graphicx}					% Inclusão de gráficos
+\usepackage{float}						% Melhorias para posicionamento de gráficos e tabelas
+\usepackage{microtype} 					% Melhorias na justificação
+\usepackage{lastpage}   		        % Dá acesso ao número da última página do documento
+\usepackage{booktabs}					% Comandos para tabelas
+\usepackage{multirow, array}			% Múltiplas linhas e colunas em tabelas
+\usepackage{titlesec}                   % Permite criar múltiplas sub seções
+\usepackage[table,xcdraw]{xcolor}       % Cores para algumas tabelas especiais
+\usepackage[brazilian,hyperpageref]{backref}	 % Inclui nas Referências as páginas onde há as citações
+\usepackage{simplecd}                   % Pacote para gerar capa do CD
+\usepackage[final]{pdfpages}            % Pacote para incluir um PDF dentro de outro (ficha catalográfica)
+%\usepackage{abntex2}
+
+
+
+%% Adiciona as alterações do ABNTeX-IFPI
+\usepackage{abntex-ifpi/abntex-ifpi}
+
+% Modificações do ABNTeX para o IFPI
+\usepackage{abntex-ifpi/tikz-uml}	    % Pacote Tikz UML para criar UML no LaTeX
+
+
+
+
+
+%% Metadados
+\input{configuracoes/pdf}
+
+
+
+%% Metadados
+\input{configuracoes/metadados}
+
+
+
+%% Configuração do "Citado nas páginas"
+\input{configuracoes/citacoes}
+
+
+
+%% Cores
+\input{configuracoes/cores}
+
+
+
+%% Espaçamentos
+\input{configuracoes/espacamentos}
