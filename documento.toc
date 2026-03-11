@@ -34,9 +34,11 @@
 \contentsline {section}{\numberline {4.2}Exemplo Prático}{31}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Tecnologias Utilizadas}{33}{section.4.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Cronograma}}{34}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusão}}{34}{chapter.5}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Cronograma}}{35}{chapter.6}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{35}{section*.28}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{36}{section*.28}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
