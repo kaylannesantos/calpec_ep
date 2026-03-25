@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.10)  10 MAR 2026 21:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.10)  24 MAR 2026 20:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1837,15 +1837,15 @@ Package rerunfilecheck Info: File `documento.brf' has not changed.
 (rerunfilecheck)             Checksum: B7DC75A4A476DC46687F4D97AA345DC8;1811.
  ) 
 Here is how much of TeX's memory you used:
- 43166 strings out of 467866
- 884522 string characters out of 5416861
- 1491372 words of memory out of 5000000
+ 43169 strings out of 467866
+ 884549 string characters out of 5416861
+ 1492372 words of memory out of 5000000
  70856 multiletter control sequences out of 15000+600000
- 659286 words of font info for 247 fonts, out of 8000000 for 9000
+ 659411 words of font info for 249 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  119i,17n,134p,1769b,763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on documento.pdf (38 pages, 566776 bytes).
+Output written on documento.pdf (38 pages, 569310 bytes).
 PDF statistics:
  625 PDF objects out of 1000 (max. 8388607)
  114 named destinations out of 1000 (max. 500000)
