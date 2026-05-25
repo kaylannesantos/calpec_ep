@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.10)  6 APR 2026 23:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.10)  24 MAY 2026 23:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Kaylanne/Documents/calpec_ep/documento.tex
-(c:/Users/Kaylanne/Documents/calpec_ep/documento.tex
+**c:/Users/Kaylanne/Documents/calpec_ep/CalPEC.tex
+(c:/Users/Kaylanne/Documents/calpec_ep/CalPEC.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (C:\Users\Kaylanne\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex2.cls
@@ -1483,7 +1483,7 @@ Package: relsize 2013/03/29 ver 4.1
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
 \ABCItoken=\toks66
-)) (configuracoes/cores.tex) (configuracoes/espacamentos.tex)) (documento.aux
+)) (configuracoes/cores.tex) (configuracoes/espacamentos.tex)) (CalPEC.aux
 Package babel Info: 'brazil' activates 'portuges' shorthands.
 (babel)             Reported on input line 18.
 
@@ -1503,7 +1503,7 @@ LaTeX Warning: Label `fig_arranjo' multiply defined.
 LaTeX Warning: Label `fig_arranjo' multiply defined.
 
 (estrutura/pos-textual.aux))
-\openout1 = `documento.aux'.
+\openout1 = `CalPEC.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
@@ -1654,9 +1654,9 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 
 ]) (pre-textual/resumo-lingua-estrangeira.tex [7
 
-]) (pre-textual/lista-de-ilustracoes.tex (documento.lof) [8
+]) (pre-textual/lista-de-ilustracoes.tex (CalPEC.lof) [8
 
-]) (pre-textual/lista-de-tabelas.tex (documento.lot) [9
+]) (pre-textual/lista-de-tabelas.tex (CalPEC.lot) [9
 
 ]) (pre-textual/siglas.tex [10
 
@@ -1664,7 +1664,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 ]) (pre-textual/simbolos.tex [11
 
 
-]) (documento.toc) [12
+]) (CalPEC.toc) [12
 
 ]) (estrutura/textual.tex (capitulos/introducao.tex
 Cap\'{\i }tulo 1.
@@ -1798,9 +1798,9 @@ Cap\'{\i }tulo 6.
 ]
 \openout2 = `estrutura/pos-textual.aux'.
 
- (estrutura/pos-textual.tex (pos-textual/referencias.tex (documento.bbl (documento.brf)
+ (estrutura/pos-textual.tex (pos-textual/referencias.tex (CalPEC.bbl (CalPEC.brf)
 \tf@brf=\write5
-\openout5 = `documento.brf'.
+\openout5 = `CalPEC.brf'.
 
 
 bibitemlist
@@ -1814,17 +1814,17 @@ Overfull \hbox (268.65674pt too wide) in paragraph at lines 59--59
 
 ])) (pos-textual/glossario.tex) (pos-textual/apendices.tex) (pos-textual/anexos.tex) (pos-textual/indices.tex)) [37]
 \tf@lof=\write6
-\openout6 = `documento.lof'.
+\openout6 = `CalPEC.lof'.
 
 \tf@lot=\write7
-\openout7 = `documento.lot'.
+\openout7 = `CalPEC.lot'.
 
 \tf@toc=\write8
-\openout8 = `documento.toc'.
+\openout8 = `CalPEC.toc'.
 
  
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-(documento.aux (estrutura/pos-textual.aux))
+(CalPEC.aux (estrutura/pos-textual.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
@@ -1833,19 +1833,19 @@ L3 programming layer <2020/03/25>
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `documento.brf' has not changed.
+Package rerunfilecheck Info: File `CalPEC.brf' has not changed.
 (rerunfilecheck)             Checksum: 5254A2BD3D4674D0383CDEBB8A00D7FF;1811.
  ) 
 Here is how much of TeX's memory you used:
  43179 strings out of 467866
- 884654 string characters out of 5416861
- 1492372 words of memory out of 5000000
+ 884540 string characters out of 5416861
+ 1492363 words of memory out of 5000000
  70861 multiletter control sequences out of 15000+600000
  659411 words of font info for 249 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 119i,17n,134p,1769b,763s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 119i,17n,134p,1766b,763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on documento.pdf (38 pages, 572991 bytes).
+Output written on CalPEC.pdf (38 pages, 573007 bytes).
 PDF statistics:
  651 PDF objects out of 1000 (max. 8388607)
  119 named destinations out of 1000 (max. 500000)

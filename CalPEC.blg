@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99e
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: documento.aux
+The top-level auxiliary file: CalPEC.aux
 Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: estrutura/pos-textual.aux
 Reallocating 'name_of_file' (item size: 1) to 16 items.
@@ -30,7 +30,7 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 +---------------------------------------------------------+
 You've used 18 entries,
             6714 wiz_defined-function locations,
-            1264 strings with 11507 characters,
+            1264 strings with 11501 characters,
 and the built_in function-call counts, 29038 in all, are:
 = -- 3911
 > -- 181
