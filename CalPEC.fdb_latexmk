@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex CalPEC"] 1779674914.9153 "CalPEC.aux" "CalPEC.bbl" "CalPEC" 1779674989.79743 0
+["bibtex CalPEC"] 1779674914.9153 "CalPEC.aux" "CalPEC.bbl" "CalPEC" 1780255261.75976 0
   "./bibliografia.bib" 1771976628 4020 486a6f38848ece74111bd6ddf57844c0 ""
   "C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/bibtex/bib/abntex2/abntex2-options.bib" 1543103229 5396 4eb260dac60f150ae608d45252853090 ""
   "C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/bibtex/bst/abntex2/abntex2-alf.bst" 1543103230 60064 0819ac8568f9a482510a46e3a8a6f605 ""
-  "CalPEC.aux" 1779674986 23908 8a8e969c3fb8c3e964f233d9822b2efd "pdflatex"
-  "estrutura/pos-textual.aux" 1779674986 6995 4c3f5775f8a548f546277f6fafeac311 "pdflatex"
+  "CalPEC.aux" 1780255256 23908 8a8e969c3fb8c3e964f233d9822b2efd "pdflatex"
+  "estrutura/pos-textual.aux" 1780255256 6995 4c3f5775f8a548f546277f6fafeac311 "pdflatex"
   (generated)
   "CalPEC.bbl"
   "CalPEC.blg"
   (rewritten before read)
-["pdflatex"] 1779674981.715 "c:/Users/Kaylanne/Documents/calpec_ep/CalPEC.tex" "CalPEC.pdf" "CalPEC" 1779674989.80073 0
+["pdflatex"] 1780255250.91581 "c:/Users/Kaylanne/Documents/calpec_ep/CalPEC.tex" "CalPEC.pdf" "CalPEC" 1780255261.76272 0
   "C:/Users/Kaylanne/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1773179025 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Kaylanne/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1773178670 13335342 a489214dfdaf6eebb48749d6e089fb7e ""
   "C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -268,18 +268,18 @@
   "C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "CalPEC.aux" 1779674986 23908 8a8e969c3fb8c3e964f233d9822b2efd "pdflatex"
+  "CalPEC.aux" 1780255256 23908 8a8e969c3fb8c3e964f233d9822b2efd "pdflatex"
   "CalPEC.bbl" 1779674915 3895 3960a461103d220ee2f9f2c187160c20 "bibtex CalPEC"
-  "CalPEC.brf" 1779674986 1811 5254a2bd3d4674d0383cdebb8a00d7ff "pdflatex"
-  "CalPEC.lof" 1779674986 656 013bd27c4c29ec102fbfb329b843409a "pdflatex"
-  "CalPEC.lot" 1779674986 288 c5d135ee7c3fc0134dd1f2219da90daf "pdflatex"
+  "CalPEC.brf" 1780255256 1811 5254a2bd3d4674d0383cdebb8a00d7ff "pdflatex"
+  "CalPEC.lof" 1780255256 656 013bd27c4c29ec102fbfb329b843409a "pdflatex"
+  "CalPEC.lot" 1780255256 288 c5d135ee7c3fc0134dd1f2219da90daf "pdflatex"
   "CalPEC.tex" 1775523943 1489 cf98c6024b02d2ef5cf62d33512fb831 ""
-  "CalPEC.toc" 1779674986 4095 5a68e5b337a71b4a212419cafcd0ea33 "pdflatex"
+  "CalPEC.toc" 1780255256 4095 5a68e5b337a71b4a212419cafcd0ea33 "pdflatex"
   "abntex-ifpi/abntex-ifpi.sty" 1771976628 10610 f96d2bf55e67f3cd5c7f951ded9b7758 ""
   "abntex-ifpi/logo_ifpi.png" 1771976628 30676 fed6c764ab55ce3c45eaabf1bbe7d41f ""
   "abntex-ifpi/tikz-uml.sty" 1771976628 308078 ed2f9b5dd419a64f254ecbf6a6653c7f ""
   "c:/Users/Kaylanne/Documents/calpec_ep/CalPEC.tex" 1775523943 1489 cf98c6024b02d2ef5cf62d33512fb831 ""
-  "capitulos/calculadora.tex" 1779674974 10955 f10e6abd598110780144434fb471ed7d ""
+  "capitulos/calculadora.tex" 1780255243 10955 ccea55cf58d33ab5298ef7b8bfa703f3 ""
   "capitulos/conclusao.tex" 1774396006 3028 7a0ab0147b77c73412a9be8a34cbea53 ""
   "capitulos/cronograma.tex" 1771976628 1271 873d0c99a04ec327769c653e5911b618 ""
   "capitulos/fundamentacao-teorica.tex" 1771976628 12943 725138671ab7cff5f5b675574ce99291 ""
@@ -291,7 +291,7 @@
   "configuracoes/metadados.tex" 1773179326 2067 5cc657a59a00f8037065da2df94e1928 ""
   "configuracoes/pdf.tex" 1771976628 710 5f1873fb1b491709d04164ac06ffa9b0 ""
   "configuracoes/tipografia.tex" 1771976628 1384 713e0e83a460c437ae876f10327ffd61 ""
-  "estrutura/pos-textual.aux" 1779674986 6995 4c3f5775f8a548f546277f6fafeac311 "pdflatex"
+  "estrutura/pos-textual.aux" 1780255256 6995 4c3f5775f8a548f546277f6fafeac311 "pdflatex"
   "estrutura/pos-textual.tex" 1771976628 796 7292f7a2259f91799c533314beebba15 ""
   "estrutura/pre-textual.tex" 1771976628 2012 30f50d9de0176326ac3a6345d137f014 ""
   "estrutura/preambulo.tex" 1771976628 2118 c0e166288e87a1b07a2ea599899d99f2 ""
