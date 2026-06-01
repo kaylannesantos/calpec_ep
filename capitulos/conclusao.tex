@@ -2,12 +2,43 @@
 % Conclusão
 % ----------------------------------------------------------
 \chapter{Conclusão}
-O desenvolvimento deste trabalho permitiu compreender, de forma integrada, tanto os aspectos jurídicos da execução penal quanto os fundamentos técnicos necessários para a modelagem de um sistema capaz de apoiar sua gestão de maneira eficaz. A análise do fluxo da execução penal demonstrou que a administração correta de informações — como remição, detração, unificação de penas, datas‑base e elegibilidade para benefícios — é essencial para assegurar a observância dos direitos da pessoa condenada e a atuação precisa dos operadores do Direito. Esse entendimento fundamentou a definição das funcionalidades do sistema e orientou a construção dos modelos conceituais apresentados.
+O desenvolvimento deste trabalho partiu da identificação de um problema concreto e recorrente no sistema prisional brasileiro: a ocorrência de falhas no cálculo manual da execução penal, que podem resultar tanto em permanência indevida do apenado no sistema prisional quanto em solturas antecipadas indevidas, comprometendo direitos individuais e a segurança pública. Diante desse cenário, o objetivo geral deste projeto --- desenvolver um sistema web para gerenciar o cálculo de execução penal conforme os parâmetros estabelecidos pela LEP --- foi plenamente atingido, resultando no CalPEC, sistema que se encontra implantado e em funcionamento, acessível pelo endereço \url{https://calpec.vercel.app}.
 
-A partir desse estudo, foi possível identificar as principais necessidades do processo de execução penal e traduzi‑las em funcionalidades objetivas: registrar remição, registrar detração, registrar unificação de pena, calcular benefícios, exibir status de progressão, processar progressão de regime, além do cadastro de condenados e advogados. Essas funcionalidades estruturam o núcleo operacional do sistema e refletem diretamente a dinâmica prevista na Lei de Execução Penal (LEP), permitindo o acompanhamento claro, auditável e automatizado do cumprimento da pena.
+Para atingir esse objetivo, foi construído um sistema que vai além da realização do cálculo propriamente dito: o CalPEC permite ao usuário a gestão completa de uma execução penal, desde o cadastro do apenado e do advogado responsável até o registro e acompanhamento da execução, contemplando remição, detração e progressão de regime. Ao longo do desenvolvimento, observou-se a necessidade de elencar fatores essenciais para o uso diário de um operador do Direito, o que orientou as decisões de projeto e contribuiu para que o sistema entregasse não apenas precisão nos cálculos, mas também uma experiência de uso adequada ao contexto jurídico.
 
-A modelagem proposta — por meio dos diagramas de casos de uso, diagrama de classes e do diagrama Entidade‑Relacionamento (DER) no estilo Chen — consolidou a visão lógica e estrutural do sistema. Os diagramas demonstram como cada entidade se relaciona com o processo jurídico real, garantindo coerência e fidelidade ao funcionamento da execução penal. A criação do DER, em especial, mostrou como a informação é organizada, preservada e cruzada para suportar o cálculo dos benefícios e a geração do status de progressão, elementos centrais para a atuação da Vara de Execuções Penais.
+No que diz respeito aos objetivos específicos, estes foram cumpridos de forma satisfatória. O sistema preserva os benefícios previstos na Lei de Execução Penal, como progressão de regime, remição e detração da pena, realizando os cálculos de forma automatizada e com base nos percentuais e critérios estabelecidos pela legislação vigente. Além disso, a automatização do processo contribuiu diretamente para a redução de falhas humanas e para a otimização dos trâmites burocráticos que compõem a execução penal.
 
-Desse modo, o sistema concebido neste trabalho não é apenas uma ferramenta tecnológica, mas uma solução alinhada às demandas práticas do cotidiano forense, contribuindo para maior segurança jurídica, eficiência administrativa e transparência no controle da pena. Além de favorecer decisões mais rápidas e precisas, a modelagem apresentada coloca o condenado no centro do processo de execução, garantindo que seus direitos sejam acompanhados de forma objetiva, sistemática e verificável.
+Portanto, o CalPEC consolida-se como uma ferramenta de apoio ao cotidiano forense, oferecendo a advogados, defensores públicos, juízes e demais operadores do Direito um recurso confiável para o acompanhamento e registro das execuções penais. Ao centralizar em um único sistema as principais funcionalidades necessárias a esse processo, o CalPEC contribui para maior segurança jurídica, eficiência administrativa e transparência no controle do cumprimento da pena, colocando o condenado no centro do processo e assegurando que seus direitos sejam acompanhados de forma objetiva e verificável.
 
-Portanto, conclui-se que o sistema proposto atende plenamente aos requisitos identificados, oferecendo uma base sólida tanto para implementação prática quanto para evolução futura. A integração entre teoria jurídica e modelagem computacional demonstrou que é possível transformar estruturas complexas da execução penal em fluxos claros e automatizáveis, contribuindo para uma justiça mais acessível, eficiente e humanizada.
+\begin{comment}
+\subsection{Limitações}
+
+Embora o sistema esteja funcional e implantado, algumas limitações 
+foram identificadas no escopo atual do projeto. O CalPEC ainda não 
+possui integração com o Sistema Eletrônico de Execução Unificado 
+(SEEU), plataforma oficial adotada pelo Conselho Nacional de Justiça 
+para gestão dos processos de execução penal. Além disso, o sistema 
+não conta com verificação e validação de e-mail no cadastro, 
+funcionalidade de unificação de penas, controle de acesso por perfil 
+de usuário e extração automática de dados de documentos oficiais para 
+autopreenchimento do formulário de execução. A validação do sistema 
+foi realizada pela própria autora, não havendo até o momento uma 
+avaliação formal por parte do público-alvo.
+
+\subsection{Trabalhos Futuros}
+
+Com base nas limitações identificadas e nas perspectivas de evolução 
+do sistema, destacam-se as seguintes direções para trabalhos futuros:
+implementação da funcionalidade de extração automática de dados de 
+documentos oficiais para autopreenchimento do formulário de execução; 
+implementação da funcionalidade de unificação de penas, permitindo que 
+condenações distintas sejam consolidadas em um único cálculo de 
+execução; expansão da aba de apenados e aprimoramento da gestão das 
+execuções, tornando o acompanhamento ainda mais completo; 
+desenvolvimento de controle de acesso por perfil de usuário, 
+diferenciando as permissões entre advogados, defensores e demais 
+operadores do sistema; implementação da verificação de e-mail no 
+cadastro, garantindo maior segurança no acesso à plataforma; e 
+integração com o SEEU, permitindo sincronização direta com os processos 
+cadastrados na plataforma do CNJ.
+\end{comment}
