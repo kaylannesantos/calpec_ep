@@ -36,13 +36,15 @@ representa as interações entre o ator do sistema (o Advogado) e as funcionalid
     \legend{Fonte: Elaborado pelo Autor}
     \label{fig:casos-de-uso}
 \end{figure}
+
 \newpage %COLOCADO PARA QUE O DIAGRAMA DE CLASSES FIQUE EM UMA PÁGINA SEPARADA, PARA MELHOR VISUALIZAÇÃO
+
 \subsection{Diagrama de Classes}
 O Diagrama de Classes Figura~\ref{fig:classes}, representa a estrutura sistema, mostrando as quatro classes principais: \textit{Usuario}, \textit{Apenado}, \textit{Execucao} e \textit{Remicao}. Um usuário pode cadastrar múltiplos apenados e criar múltiplas execuções. Cada execução concentra os dados de tempo de pena, período de detração, regime inicial e os resultados do cálculo automático, como data de término, progressão de regime e data final de pena. A classe \textit{Remicao} registra as remições contínuas ao longo do cumprimento da pena, recalculando automaticamente a progressão a cada novo registro, conforme os benefícios realizados.
 
 \begin{figure}[H]
     \begin{center}
-        \includegraphics[width=1.0\textwidth]{imagens/diagramas/classes.png}
+        \includegraphics[width=1.2\textwidth]{imagens/diagramas/classes.png}
     \end{center}
     \caption{Diagrama de Classes.}
     \legend{Fonte: Elaborado pelo Autor}
@@ -76,12 +78,14 @@ O Diagrama Entidade-Relacionamento, descreve a estrutura do banco de dados do si
     \label{fig:der}
 \end{figure}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%TELAS DO SISTEMA%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \subsection{Tela de Login}
 A Figura~\ref{fig:login} exibe a tela de login da calculadora, na qual o usuário pode realizar o login, se já for cadastrado, ou pode cadastrar-se clicando abaixo de "entrar". A tela de login é o ponto de partida para acessar a calculadora. Na parte superior da tela, a direita da tela encontra-se a navegação de páginas. Inicio, navega para a tela inicial do sistema. Registrar, carrega o pop-up onde o usuário seleciona o que quer registrar, podendo registrar uma nova execução ou um apenado. 
 
 \begin{figure}[H]
 	\begin{center}
-	    \includegraphics[scale=0.5]{imagens/prototipo/login.jpg}
+	    \includegraphics[scale=0.3]{imagens/prototipo/login.png}
 	\end{center}
     \caption{\label{fig_arranjo}Tela de Login.}
 	\legend{Fonte: Elaborado pelo Autor}
@@ -94,7 +98,7 @@ Ao realizar o login, o usuário navega até a página inicial do sistema figura\
 
 \begin{figure}[H]
 	\begin{center}
-	    \includegraphics[scale=0.5]{imagens/prototipo/pagina_inicial.jpg}
+	    \includegraphics[scale=0.5]{imagens/prototipo/tela-inicial.png}
 	\end{center}
     \caption{\label{fig_arranjo}Tela Inicial.}
 	\legend{Fonte: Elaborado pelo Autor}
