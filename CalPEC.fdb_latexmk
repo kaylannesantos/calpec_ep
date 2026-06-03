@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex CalPEC"] 1780458547.47917 "CalPEC.aux" "CalPEC.bbl" "CalPEC" 1780458562.48311 0
+["bibtex CalPEC"] 1780458547.47917 "CalPEC.aux" "CalPEC.bbl" "CalPEC" 1780458934.62461 0
   "./bibliografia.bib" 1771976628 4020 486a6f38848ece74111bd6ddf57844c0 ""
   "C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/bibtex/bib/abntex2/abntex2-options.bib" 1543103229 5396 4eb260dac60f150ae608d45252853090 ""
   "C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/bibtex/bst/abntex2/abntex2-alf.bst" 1543103230 60064 0819ac8568f9a482510a46e3a8a6f605 ""
-  "CalPEC.aux" 1780458558 25406 c1bdd14a5edaa4ced56d7095b9be9e48 "pdflatex"
-  "estrutura/pos-textual.aux" 1780458558 6996 399bdb5aa0826294e8ad4895ff78a5f0 "pdflatex"
+  "CalPEC.aux" 1780458931 25406 c1bdd14a5edaa4ced56d7095b9be9e48 "pdflatex"
+  "estrutura/pos-textual.aux" 1780458931 6996 399bdb5aa0826294e8ad4895ff78a5f0 "pdflatex"
   (generated)
   "CalPEC.bbl"
   "CalPEC.blg"
   (rewritten before read)
-["pdflatex"] 1780458548.00288 "c:/Users/Kaylanne/Documents/calpec_ep/CalPEC.tex" "CalPEC.pdf" "CalPEC" 1780458562.48481 0
+["pdflatex"] 1780458921.95511 "c:/Users/Kaylanne/Documents/calpec_ep/CalPEC.tex" "CalPEC.pdf" "CalPEC" 1780458934.62825 0
   "C:/Users/Kaylanne/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1773179025 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Kaylanne/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1773178670 13335342 a489214dfdaf6eebb48749d6e089fb7e ""
   "C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -268,13 +268,13 @@
   "C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "CalPEC.aux" 1780458558 25406 c1bdd14a5edaa4ced56d7095b9be9e48 "pdflatex"
+  "CalPEC.aux" 1780458931 25406 c1bdd14a5edaa4ced56d7095b9be9e48 "pdflatex"
   "CalPEC.bbl" 1780458547 3895 3960a461103d220ee2f9f2c187160c20 "bibtex CalPEC"
-  "CalPEC.brf" 1780458559 1811 9407c27113c1fd4a380862f45a80c1d4 "pdflatex"
-  "CalPEC.lof" 1780458559 1078 7f18135d3622a09d81d43416ec8b8755 "pdflatex"
-  "CalPEC.lot" 1780458559 288 e9f7ef55e4b3448f2ac20d0c38957bd2 "pdflatex"
+  "CalPEC.brf" 1780458931 1811 9407c27113c1fd4a380862f45a80c1d4 "pdflatex"
+  "CalPEC.lof" 1780458931 1078 7f18135d3622a09d81d43416ec8b8755 "pdflatex"
+  "CalPEC.lot" 1780458931 288 e9f7ef55e4b3448f2ac20d0c38957bd2 "pdflatex"
   "CalPEC.tex" 1775523943 1489 cf98c6024b02d2ef5cf62d33512fb831 ""
-  "CalPEC.toc" 1780458559 4190 66ba22cf27562b58f351910f024efe03 "pdflatex"
+  "CalPEC.toc" 1780458931 4190 66ba22cf27562b58f351910f024efe03 "pdflatex"
   "abntex-ifpi/abntex-ifpi.sty" 1771976628 10610 f96d2bf55e67f3cd5c7f951ded9b7758 ""
   "abntex-ifpi/logo_ifpi.png" 1771976628 30676 fed6c764ab55ce3c45eaabf1bbe7d41f ""
   "abntex-ifpi/tikz-uml.sty" 1771976628 308078 ed2f9b5dd419a64f254ecbf6a6653c7f ""
@@ -291,7 +291,7 @@
   "configuracoes/metadados.tex" 1773179326 2067 5cc657a59a00f8037065da2df94e1928 ""
   "configuracoes/pdf.tex" 1771976628 710 5f1873fb1b491709d04164ac06ffa9b0 ""
   "configuracoes/tipografia.tex" 1771976628 1384 713e0e83a460c437ae876f10327ffd61 ""
-  "estrutura/pos-textual.aux" 1780458558 6996 399bdb5aa0826294e8ad4895ff78a5f0 "pdflatex"
+  "estrutura/pos-textual.aux" 1780458931 6996 399bdb5aa0826294e8ad4895ff78a5f0 "pdflatex"
   "estrutura/pos-textual.tex" 1771976628 796 7292f7a2259f91799c533314beebba15 ""
   "estrutura/pre-textual.tex" 1771976628 2012 30f50d9de0176326ac3a6345d137f014 ""
   "estrutura/preambulo.tex" 1771976628 2118 c0e166288e87a1b07a2ea599899d99f2 ""
@@ -320,7 +320,7 @@
   "pre-textual/lista-de-ilustracoes.tex" 1771976628 99 69acef794cc5c49cb9daf736b438a665 ""
   "pre-textual/lista-de-tabelas.tex" 1771976628 91 3a42e2327d4a0edd07df495147818a0c ""
   "pre-textual/resumo-lingua-estrangeira.tex" 1773173190 2584 66d2a36398725a6f5f0ea753fa94a0bc ""
-  "pre-textual/resumo.tex" 1773172916 1869 2908514198724e33865317e489ace7df ""
+  "pre-textual/resumo.tex" 1780458920 1813 9d0df978a5f04bc518f24c3d514c1fb0 ""
   "pre-textual/siglas.tex" 1774396292 488 48bb679a9c2499306161c3252452f1d4 ""
   "pre-textual/simbolos.tex" 1771976628 404 45d490914dc9fa3c0653517a6b8fb3c4 ""
   (generated)

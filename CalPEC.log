@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.10)  3 JUN 2026 00:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.10)  3 JUN 2026 00:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1863,13 +1863,13 @@ Package rerunfilecheck Info: File `CalPEC.brf' has not changed.
 Here is how much of TeX's memory you used:
  43238 strings out of 467866
  885891 string characters out of 5416861
- 1492600 words of memory out of 5000000
+ 1491601 words of memory out of 5000000
  70894 multiletter control sequences out of 15000+600000
  660792 words of font info for 260 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  119i,17n,134p,1766b,763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on CalPEC.pdf (43 pages, 2080254 bytes).
+Output written on CalPEC.pdf (43 pages, 2080223 bytes).
 PDF statistics:
  700 PDF objects out of 1000 (max. 8388607)
  129 named destinations out of 1000 (max. 500000)
