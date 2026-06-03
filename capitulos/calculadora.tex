@@ -14,7 +14,7 @@ Diante das necessidade e dificuldades expostas, o presente sistema apresenta as 
 \begin{itemize}
     \item Registrar remição;
     \item Registrar detração;
-    \item Registrar unificação de pena; Retirar esse item
+    %\item Registrar unificação de pena;
     \item Exibir status de progressão;
     \item Calcular benefícios;
     \item Progressão de regime; 
@@ -23,10 +23,58 @@ Diante das necessidade e dificuldades expostas, o presente sistema apresenta as 
 \end{itemize}
 
 \section{Modelagem do sistema}
+
 \subsection{Diagrama de Casos de Uso}
+O Diagrama de Casos de Uso, apresentado na Figura~\ref{fig:casos-de-uso},
+representa as interações entre o ator do sistema (o Advogado) e as funcionalidades disponíveis no CalPEC. O ator pode cadastrar-se, fazer login, cadastrar apenados, registrar execuções e remições, além de poder acompanhar o status de progressão. As relações de \textit{include} exibi que o cálculo de benefícios é acionado automaticamente pelo sistema sempre que uma execução é registrada ou uma remição é cadastrada, resultando na exibição do status de progressão de regime, atualizando-se a cada alteração sob a execução.
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.6\textwidth]{imagens/diagramas/casos-de-uso.png}
+    \end{center}
+    \caption{Diagrama de Casos de Uso.}
+    \legend{Fonte: Elaborado pelo Autor}
+    \label{fig:casos-de-uso}
+\end{figure}
+\newpage %COLOCADO PARA QUE O DIAGRAMA DE CLASSES FIQUE EM UMA PÁGINA SEPARADA, PARA MELHOR VISUALIZAÇÃO
 \subsection{Diagrama de Classes}
+O Diagrama de Classes Figura~\ref{fig:classes}, representa a estrutura sistema, mostrando as quatro classes principais: \textit{Usuario}, \textit{Apenado}, \textit{Execucao} e \textit{Remicao}. Um usuário pode cadastrar múltiplos apenados e criar múltiplas execuções. Cada execução concentra os dados de tempo de pena, período de detração, regime inicial e os resultados do cálculo automático, como data de término, progressão de regime e data final de pena. A classe \textit{Remicao} registra as remições contínuas ao longo do cumprimento da pena, recalculando automaticamente a progressão a cada novo registro, conforme os benefícios realizados.
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=1.0\textwidth]{imagens/diagramas/classes.png}
+    \end{center}
+    \caption{Diagrama de Classes.}
+    \legend{Fonte: Elaborado pelo Autor}
+    \label{fig:classes}
+\end{figure}
+
+\newpage %COLOCADO PARA QUE O DIAGRAMA DE SEQUÊNCIA FIQUE EM UMA PÁGINA SEPARADA, PARA MELHOR VISUALIZAÇÃO
 \subsection{Diagrama de Sequência}
+O Diagrama de Sequência demonstra o fluxo completo de interação entre o Advogado, o Sistema e o Banco de Dados, conforme mostra na Figura~\ref{fig:sequencia}. O fluxo inicia com o cadastro e login do usuário, seguido do cadastro do apenado e do registro da execução penal, momento em que o sistema realiza automaticamente o cálculo da pena total, detração, remição inicial e progressão de regime, persistindo o
+resultado no banco de dados. Por fim, o diagrama ilustra o registro de novas remições ao longo do tempo, que realizam o recálculo automático da progressão e do término da pena.
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=1.0\textwidth]{imagens/diagramas/sequencia.png}
+    \end{center}
+    \caption{Diagrama de Sequência.}
+    \legend{Fonte: Elaborado pelo Autor}
+    \label{fig:sequencia}
+\end{figure}
+
+\newpage %COLOCADO PARA QUE O DIAGRAMA DER FIQUE EM UMA PÁGINA SEPARADA, PARA MELHOR VISUALIZAÇÃO
 \subsection{Diagrama DER}
+O Diagrama Entidade-Relacionamento, descreve a estrutura do banco de dados do sistema CalPEC. A entidade central é \textit{EXECUCAO}, que se relaciona diretamente com \textit{APENADO}, \textit{USUARIO} e \textit{REMICAO}, Figura~\ref{fig:der}. A entidade \textit{USUARIO} representa o advogado cadastrado no sistema, responsável pelo cadastro dos apenados e pela criação das execuções. A entidade \textit{REMICAO} registra individualmente cada atividade de remição realizada pelo apenado, mantendo o histórico completo para fins de cálculo e comprovação.
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=1.0\textwidth]{imagens/diagramas/der.png}
+    \end{center}
+    \caption{Diagrama Entidade-Relacionamento.}
+    \legend{Fonte: Elaborado pelo Autor}
+    \label{fig:der}
+\end{figure}
 
 \subsection{Tela de Login}
 A Figura~\ref{fig:login} exibe a tela de login da calculadora, na qual o usuário pode realizar o login, se já for cadastrado, ou pode cadastrar-se clicando abaixo de "entrar". A tela de login é o ponto de partida para acessar a calculadora. Na parte superior da tela, a direita da tela encontra-se a navegação de páginas. Inicio, navega para a tela inicial do sistema. Registrar, carrega o pop-up onde o usuário seleciona o que quer registrar, podendo registrar uma nova execução ou um apenado. 
@@ -89,7 +137,7 @@ Ao clicar em "registrar execução" Figura \ref{fig:tela-execucao}, o sistema na
     \label{fig:tela-execucao}
 \end{figure}
 
- Os campos expostos contribuem para que o cálculo de execução seja completo e suficiente para gerar o relatório necessário. Ao preencher todos os campos do formulário, o usuário clica em "calcular" para gerar o resultado referente aos dados apresentados, conforme a Figura \ref{fig:tela-resultado-execucao};.
+ Os campos expostos contribuem para que o cálculo de execução seja completo e suficiente para gerar o relatório necessário. Ao preencher todos os campos do formulário, o usuário clica em "calcular" para gerar o resultado referente aos dados apresentados, conforme a Figura \ref{fig:tela-resultado-execucao}.
 
 \begin{figure}[H]
 	\begin{center}
@@ -150,3 +198,9 @@ Ademais, para o backend, optou-se pelo framework FastAPI, baseado em Python. A l
 
 Por fim, para o banco de dados, definiu-se o PostgreSQL, sistema gerenciador de banco de dados relacional robusto e amplamente utilizado em aplicações de produção. A escolha se deve à vivência anterior com a tecnologia, o que permitiu uma modelagem eficiente, garantindo a integridade e a segurança dos dados armazenados. O banco de dados está 
 hospedado na plataforma Supabase.
+
+\section{Privacidade e Segurança dos Dados}
+
+Por lidar com dados sensíveis de pessoas condenadas, o CalPEC foi desenvolvido com atenção aos princípios estabelecidos pela Lei Geral de Proteção de Dados (LGPD), Lei nº 13.709/2018. O sistema adota o princípio da minimização de dados, coletando apenas as informações estritamente necessárias para o funcionamento da aplicação: dados de identificação do advogado (nome, e-mail, CPF, número da OAB e telefone) e dados do apenado (nome, data de nascimento e número de execução). Quanto à segurança das credenciais, as senhas dos usuários são armazenadas em formato de hash, garantindo que, mesmo em caso de acesso indevido ao banco de dados, as senhas originais não possam ser recuperadas.
+
+Como perspectiva de evolução, o sistema prevê a implementação de controle de acesso por perfil de usuário, garantindo que cada advogado visualize exclusivamente os dados que ele mesmo cadastrou, em conformidade com o princípio do acesso restrito previsto na LGPD. Além disso, está prevista a implementação do direito de exclusão de dados pelo titular, bem como a elaboração de uma política de privacidade acessível aos usuários da plataforma.
