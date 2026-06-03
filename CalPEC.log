@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.10)  3 JUN 2026 00:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.10)  3 JUN 2026 01:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1689,32 +1689,32 @@ Cap\'{\i }tulo 3.
 [21
 
 ] [22] [23]
-Underfull \hbox (badness 1077) in paragraph at lines 97--97
+Underfull \hbox (badness 1077) in paragraph at lines 98--98
 []|\T1/phv/m/n/12 (+20) Execução pe-nal ofi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 []|\T1/phv/m/n/12 (+20) Oficial, con-fi-á-vel,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 []|\T1/phv/m/n/12 (+20) Progressão de re-
  []
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 101--102
+Underfull \hbox (badness 2744) in paragraph at lines 102--103
 []|\T1/phv/m/n/12 (+20) Não in-clui re-mi-ção,
  []
 
 
-Underfull \hbox (badness 4940) in paragraph at lines 105--106
+Underfull \hbox (badness 4940) in paragraph at lines 106--107
 []|\T1/phv/m/n/12 (+20) Básico, não co-bre
  []
 
 
-Overfull \hbox (7.56491pt too wide) in paragraph at lines 93--110
+Overfull \hbox (7.56491pt too wide) in paragraph at lines 94--111
  [][] 
  []
 
@@ -1735,11 +1735,11 @@ File: imagens/diagramas/classes.png Graphic file (type png)
 Package pdftex.def Info: imagens/diagramas/classes.png  used on input line 45.
 (pdftex.def)             Requested size: 455.0pt x 202.37668pt.
  [28 <./imagens/diagramas/classes.png>]
-<imagens/diagramas/sequencia.png, id=383, 2597.705pt x 1945.2675pt>
+<imagens/diagramas/sequencia.png, id=383, 5841.825pt x 5013.73125pt>
 File: imagens/diagramas/sequencia.png Graphic file (type png)
 <use imagens/diagramas/sequencia.png>
 Package pdftex.def Info: imagens/diagramas/sequencia.png  used on input line 59.
-(pdftex.def)             Requested size: 455.0pt x 340.72374pt.
+(pdftex.def)             Requested size: 455.0pt x 390.47275pt.
  [29 <./imagens/diagramas/sequencia.png>]
 <imagens/diagramas/der.png, id=390, 7523.10625pt x 4868.1875pt>
 File: imagens/diagramas/der.png Graphic file (type png)
@@ -1829,7 +1829,7 @@ Cap\'{\i }tulo 6.
 
 bibitemlist
 
-Overfull \hbox (268.65674pt too wide) in paragraph at lines 59--59
+Overfull \hbox (268.65674pt too wide) in paragraph at lines 67--67
 \T1/phv/m/n/12 (-20) reu-[]aguarda-[]soltura-[]apos-[]cumprir-[]integralmente-[]a-[]pena-[]em-[]regime-[]fechado-[]execucao-[]antecipada-[]da-[]pena-[]pode-[]levar-[]a-[]prisao-[]indevida / 
  []
 
@@ -1858,20 +1858,20 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `CalPEC.brf' has not changed.
-(rerunfilecheck)             Checksum: 9407C27113C1FD4A380862F45A80C1D4;1811.
+(rerunfilecheck)             Checksum: 0A6BBFA12408BCE1ACCFDF14954C0846;1852.
  ) 
 Here is how much of TeX's memory you used:
- 43238 strings out of 467866
- 885891 string characters out of 5416861
- 1491601 words of memory out of 5000000
- 70894 multiletter control sequences out of 15000+600000
+ 43248 strings out of 467866
+ 885983 string characters out of 5416861
+ 1491726 words of memory out of 5000000
+ 70903 multiletter control sequences out of 15000+600000
  660792 words of font info for 260 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 119i,17n,134p,1766b,763s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 119i,17n,134p,1765b,757s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on CalPEC.pdf (43 pages, 2080223 bytes).
+Output written on CalPEC.pdf (43 pages, 2381735 bytes).
 PDF statistics:
- 700 PDF objects out of 1000 (max. 8388607)
- 129 named destinations out of 1000 (max. 500000)
+ 705 PDF objects out of 1000 (max. 8388607)
+ 130 named destinations out of 1000 (max. 500000)
  35339 words of extra memory for PDF output out of 35830 (max. 10000000)
 
