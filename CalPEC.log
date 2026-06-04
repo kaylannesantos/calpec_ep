@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.10)  4 JUN 2026 00:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.10)  4 JUN 2026 01:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1707,13 +1707,13 @@ Cap\'{\i }tulo 4.
 [26
 
 ]
-<imagens/diagramas/casos-de-uso.png, id=399, 523.9575pt x 623.32875pt>
+<imagens/diagramas/casos-de-uso.png, id=397, 523.9575pt x 623.32875pt>
 File: imagens/diagramas/casos-de-uso.png Graphic file (type png)
 <use imagens/diagramas/casos-de-uso.png>
 Package pdftex.def Info: imagens/diagramas/casos-de-uso.png  used on input line 33.
 (pdftex.def)             Requested size: 273.00278pt x 324.7891pt.
  [27 <./imagens/diagramas/casos-de-uso.png>]
-<imagens/diagramas/classes.png, id=406, 6678.9525pt x 2971.1pt>
+<imagens/diagramas/classes.png, id=404, 6678.9525pt x 2971.1pt>
 File: imagens/diagramas/classes.png Graphic file (type png)
 <use imagens/diagramas/classes.png>
 Package pdftex.def Info: imagens/diagramas/classes.png  used on input line 47.
@@ -1724,41 +1724,41 @@ Overfull \hbox (45.50278pt too wide) in paragraph at lines 47--48
  []
 
 [28 <./imagens/diagramas/classes.png>]
-<imagens/diagramas/sequencia.png, id=413, 5841.825pt x 5013.73125pt>
+<imagens/diagramas/sequencia.png, id=411, 5841.825pt x 5013.73125pt>
 File: imagens/diagramas/sequencia.png Graphic file (type png)
 <use imagens/diagramas/sequencia.png>
 Package pdftex.def Info: imagens/diagramas/sequencia.png  used on input line 61.
 (pdftex.def)             Requested size: 455.0pt x 390.47275pt.
  [29 <./imagens/diagramas/sequencia.png>]
-<imagens/diagramas/der.png, id=420, 7523.10625pt x 4868.1875pt>
+<imagens/diagramas/der.png, id=418, 7523.10625pt x 4868.1875pt>
 File: imagens/diagramas/der.png Graphic file (type png)
 <use imagens/diagramas/der.png>
 Package pdftex.def Info: imagens/diagramas/der.png  used on input line 74.
 (pdftex.def)             Requested size: 455.0pt x 294.38141pt.
  [30 <./imagens/diagramas/der.png>]
-<imagens/prototipo/login.png, id=428, 1927.2pt x 914.41624pt>
+<imagens/prototipo/login.png, id=426, 1927.2pt x 914.41624pt>
 File: imagens/prototipo/login.png Graphic file (type png)
 <use imagens/prototipo/login.png>
 Package pdftex.def Info: imagens/prototipo/login.png  used on input line 88.
 (pdftex.def)             Requested size: 455.0pt x 215.8785pt.
-<imagens/prototipo/cadastrar-usuario.png, id=430, 1927.2pt x 914.41624pt>
+<imagens/prototipo/cadastrar-usuario.png, id=428, 1927.2pt x 914.41624pt>
 File: imagens/prototipo/cadastrar-usuario.png Graphic file (type png)
 <use imagens/prototipo/cadastrar-usuario.png>
 Package pdftex.def Info: imagens/prototipo/cadastrar-usuario.png  used on input line 100.
 (pdftex.def)             Requested size: 455.0pt x 215.8785pt.
  [31 <./imagens/prototipo/login.png>]
-<imagens/prototipo/tela-inicial.png, id=437, 1927.2pt x 914.41624pt>
+<imagens/prototipo/tela-inicial.png, id=435, 1927.2pt x 914.41624pt>
 File: imagens/prototipo/tela-inicial.png Graphic file (type png)
 <use imagens/prototipo/tela-inicial.png>
 Package pdftex.def Info: imagens/prototipo/tela-inicial.png  used on input line 112.
 (pdftex.def)             Requested size: 455.0pt x 215.8785pt.
  [32 <./imagens/prototipo/cadastrar-usuario.png> <./imagens/prototipo/tela-inicial.png>]
-<imagens/prototipo/list-apenados.png, id=445, 1927.2pt x 914.41624pt>
+<imagens/prototipo/list-apenados.png, id=443, 1927.2pt x 914.41624pt>
 File: imagens/prototipo/list-apenados.png Graphic file (type png)
 <use imagens/prototipo/list-apenados.png>
 Package pdftex.def Info: imagens/prototipo/list-apenados.png  used on input line 124.
 (pdftex.def)             Requested size: 455.0pt x 215.8785pt.
-<imagens/prototipo/add-apenado.png, id=448, 1927.2pt x 914.41624pt>
+<imagens/prototipo/add-apenado.png, id=446, 1927.2pt x 914.41624pt>
 File: imagens/prototipo/add-apenado.png Graphic file (type png)
 <use imagens/prototipo/add-apenado.png>
 Package pdftex.def Info: imagens/prototipo/add-apenado.png  used on input line 136.
@@ -1768,49 +1768,49 @@ File: imagens/prototipo/list-apenados.png Graphic file (type png)
 <use imagens/prototipo/list-apenados.png>
 Package pdftex.def Info: imagens/prototipo/list-apenados.png  used on input line 145.
 (pdftex.def)             Requested size: 455.0pt x 215.8785pt.
-<imagens/prototipo/edit-apenado.png, id=455, 1927.2pt x 914.41624pt>
+<imagens/prototipo/edit-apenado.png, id=453, 1927.2pt x 914.41624pt>
 File: imagens/prototipo/edit-apenado.png Graphic file (type png)
 <use imagens/prototipo/edit-apenado.png>
 Package pdftex.def Info: imagens/prototipo/edit-apenado.png  used on input line 157.
 (pdftex.def)             Requested size: 455.0pt x 215.8785pt.
  [34 <./imagens/prototipo/add-apenado.png>]
-<imagens/prototipo/list-execucoes.png, id=462, 1927.2pt x 914.41624pt>
+<imagens/prototipo/list-execucoes.png, id=460, 1927.2pt x 914.41624pt>
 File: imagens/prototipo/list-execucoes.png Graphic file (type png)
 <use imagens/prototipo/list-execucoes.png>
 Package pdftex.def Info: imagens/prototipo/list-execucoes.png  used on input line 169.
 (pdftex.def)             Requested size: 455.0pt x 215.8785pt.
  [35 <./imagens/prototipo/edit-apenado.png> <./imagens/prototipo/list-execucoes.png>]
-<imagens/prototipo/add-execucao.png, id=470, 1927.2pt x 914.41624pt>
+<imagens/prototipo/add-execucao.png, id=468, 1927.2pt x 914.41624pt>
 File: imagens/prototipo/add-execucao.png Graphic file (type png)
 <use imagens/prototipo/add-execucao.png>
 Package pdftex.def Info: imagens/prototipo/add-execucao.png  used on input line 181.
 (pdftex.def)             Requested size: 455.0pt x 215.8785pt.
-<imagens/prototipo/edit-execucao.png, id=472, 1927.2pt x 1270.7475pt>
+<imagens/prototipo/edit-execucao.png, id=470, 1927.2pt x 1270.7475pt>
 File: imagens/prototipo/edit-execucao.png Graphic file (type png)
 <use imagens/prototipo/edit-execucao.png>
 Package pdftex.def Info: imagens/prototipo/edit-execucao.png  used on input line 195.
 (pdftex.def)             Requested size: 455.0pt x 300.0024pt.
  [36 <./imagens/prototipo/add-execucao.png>]
-<imagens/prototipo/add-remicao.png, id=480, 1927.2pt x 1325.95375pt>
+<imagens/prototipo/add-remicao.png, id=478, 1927.2pt x 1325.95375pt>
 File: imagens/prototipo/add-remicao.png Graphic file (type png)
 <use imagens/prototipo/add-remicao.png>
 Package pdftex.def Info: imagens/prototipo/add-remicao.png  used on input line 207.
 (pdftex.def)             Requested size: 455.0pt x 313.03568pt.
  [37 <./imagens/prototipo/edit-execucao.png>]
-<imagens/prototipo/view-relatorio.png, id=487, 1431.84938pt x 686.565pt>
+<imagens/prototipo/view-relatorio.png, id=485, 1431.84938pt x 686.565pt>
 File: imagens/prototipo/view-relatorio.png Graphic file (type png)
 <use imagens/prototipo/view-relatorio.png>
 Package pdftex.def Info: imagens/prototipo/view-relatorio.png  used on input line 219.
 (pdftex.def)             Requested size: 455.0pt x 218.1653pt.
  [38 <./imagens/prototipo/add-remicao.png>]
-<imagens/prototipo/perfil-user.png, id=494, 1927.2pt x 914.41624pt>
+<imagens/prototipo/perfil-user.png, id=492, 1927.2pt x 914.41624pt>
 File: imagens/prototipo/perfil-user.png Graphic file (type png)
 <use imagens/prototipo/perfil-user.png>
 Package pdftex.def Info: imagens/prototipo/perfil-user.png  used on input line 231.
 (pdftex.def)             Requested size: 455.0pt x 215.8785pt.
  [39 <./imagens/prototipo/view-relatorio.png>] [40 <./imagens/prototipo/perfil-user.png>] [41]) (capitulos/conclusao.tex [42]
 Cap\'{\i }tulo 5.
-) (capitulos/cronograma.tex [43
+) (capitulos/trabalhos-futuros.tex [43
 
 ]
 Cap\'{\i }tulo 6.
@@ -1851,20 +1851,20 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `CalPEC.brf' has not changed.
-(rerunfilecheck)             Checksum: DB37BD1816662022A4F9FDCC196F4592;1852.
+(rerunfilecheck)             Checksum: 7690569BBB1BDB15682F6EC8E9AC805D;1889.
  ) 
 Here is how much of TeX's memory you used:
- 43319 strings out of 467866
- 887940 string characters out of 5416861
- 1492047 words of memory out of 5000000
- 70955 multiletter control sequences out of 15000+600000
+ 43317 strings out of 467866
+ 887964 string characters out of 5416861
+ 1492989 words of memory out of 5000000
+ 70954 multiletter control sequences out of 15000+600000
  660792 words of font info for 260 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  119i,17n,134p,1765b,757s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Kaylanne/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on CalPEC.pdf (47 pages, 2932234 bytes).
+Output written on CalPEC.pdf (47 pages, 2932954 bytes).
 PDF statistics:
- 805 PDF objects out of 1000 (max. 8388607)
- 149 named destinations out of 1000 (max. 500000)
+ 806 PDF objects out of 1000 (max. 8388607)
+ 148 named destinations out of 1000 (max. 500000)
  35433 words of extra memory for PDF output out of 35830 (max. 10000000)
 

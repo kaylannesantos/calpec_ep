@@ -746,11 +746,11 @@ INPUT .\capitulos\conclusao.tex
 INPUT .\capitulos\conclusao.tex
 INPUT .\capitulos\conclusao.tex
 INPUT capitulos\conclusao.tex
-INPUT .\capitulos\cronograma.tex
-INPUT .\capitulos\cronograma.tex
-INPUT .\capitulos\cronograma.tex
-INPUT .\capitulos\cronograma.tex
-INPUT capitulos\cronograma.tex
+INPUT .\capitulos\trabalhos-futuros.tex
+INPUT .\capitulos\trabalhos-futuros.tex
+INPUT .\capitulos\trabalhos-futuros.tex
+INPUT .\capitulos\trabalhos-futuros.tex
+INPUT capitulos\trabalhos-futuros.tex
 INPUT .\estrutura\pos-textual.tex
 INPUT .\estrutura\pos-textual.tex
 OUTPUT estrutura\pos-textual.aux

@@ -50,9 +50,9 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusão}}{43}{chapter.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Cronograma}}{44}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Trabalhos Futuros}}{44}{chapter.6}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{45}{section*.39}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{45}{section*.38}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
