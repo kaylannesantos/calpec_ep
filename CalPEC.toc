@@ -31,20 +31,28 @@
 \contentsline {subsection}{\numberline {4.2.2}Diagrama de Classes}{28}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Diagrama de Sequência}{29}{subsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.2.4}Diagrama DER}{30}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Tela de Login}{30}{subsection.4.2.5}%
-\contentsline {subsection}{\numberline {4.2.6}Tela Inicial}{31}{subsection.4.2.6}%
-\contentsline {subsection}{\numberline {4.2.7}Registrar Apenado}{32}{subsection.4.2.7}%
-\contentsline {subsection}{\numberline {4.2.8}Registrar Advogado}{33}{subsection.4.2.8}%
-\contentsline {subsection}{\numberline {4.2.9}Registrar Execução Penal}{34}{subsection.4.2.9}%
-\contentsline {section}{\numberline {4.3}Exemplo Prático}{36}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Tecnologias Utilizadas}{38}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Privacidade e Segurança dos Dados}{38}{section.4.5}%
+\contentsline {section}{\numberline {4.3}Telas do Sistema}{30}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Tela de Login}{30}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Cadastro de Usuário}{31}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Tela Inicial}{32}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Listar Apenados}{33}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Registrar Apenado}{33}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Editar Apenado}{34}{subsection.4.3.6}%
+\contentsline {subsection}{\numberline {4.3.7}Listar Execuções}{35}{subsection.4.3.7}%
+\contentsline {subsection}{\numberline {4.3.8}Registrar Execução Criminal}{36}{subsection.4.3.8}%
+\contentsline {subsection}{\numberline {4.3.9}Editar Execução Criminal}{36}{subsection.4.3.9}%
+\contentsline {subsection}{\numberline {4.3.10}Adicionar Remição}{37}{subsection.4.3.10}%
+\contentsline {subsection}{\numberline {4.3.11}Visualizar Relatório}{38}{subsection.4.3.11}%
+\contentsline {subsection}{\numberline {4.3.12}Perfil do Usuário}{39}{subsection.4.3.12}%
+\contentsline {section}{\numberline {4.4}Exemplo Prático}{40}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Tecnologias Utilizadas}{41}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Privacidade e Segurança dos Dados}{42}{section.4.6}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusão}}{39}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusão}}{43}{chapter.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Cronograma}}{40}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Cronograma}}{44}{chapter.6}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{41}{section*.32}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{45}{section*.39}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
