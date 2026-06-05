@@ -6,53 +6,54 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{14}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Objetivo Geral}{15}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Objetivos Específicos}{15}{subsection.1.1.1}%
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{15}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Objetivo Geral}{16}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Objetivos Específicos}{16}{subsection.1.1.1}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Fundamentação Teórica}}{16}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Código Penal (CP)}{16}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Lei de Execução Penal(LEP)}{17}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Processo de Execução Criminal(PEC)}{18}{section.2.3}%
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Fundamentação Teórica}}{17}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Código Penal (CP)}{17}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Lei de Execução Penal(LEP)}{18}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Processo de Execução Criminal(PEC)}{19}{section.2.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Trabalhos Relacionados}}{21}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Calculadora de progressão da pena}{21}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Calculadora de prescrição da pretensão executória}{21}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Calculadora de Execução Penal}{22}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Calculadora de execução penal}{23}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Calculadora de execução penal Online}{23}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Comparação Trabalhos Relacionados}{24}{section.3.6}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Trabalhos Relacionados}}{22}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Calculadora de progressão da pena}{22}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Calculadora de prescrição da pretensão executória}{22}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Calculadora de Execução Penal}{23}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Calculadora de execução penal}{24}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Calculadora de execução penal Online}{24}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Comparação Trabalhos Relacionados}{25}{section.3.6}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{CalPEC}}{26}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Funcionalidades Principais}{26}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Modelagem do sistema}{27}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Diagrama de Casos de Uso}{27}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Diagrama de Classes}{28}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Diagrama de Sequência}{29}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Diagrama DER}{30}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Telas do Sistema}{31}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Tela de Login}{31}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Cadastro de Usuário}{31}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Tela Inicial}{32}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Listar Apenados}{33}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Registrar Apenado}{33}{subsection.4.3.5}%
-\contentsline {subsection}{\numberline {4.3.6}Editar Apenado}{34}{subsection.4.3.6}%
-\contentsline {subsection}{\numberline {4.3.7}Listar Execuções}{35}{subsection.4.3.7}%
-\contentsline {subsection}{\numberline {4.3.8}Registrar Execução Criminal}{36}{subsection.4.3.8}%
-\contentsline {subsection}{\numberline {4.3.9}Editar Execução Criminal}{36}{subsection.4.3.9}%
-\contentsline {subsection}{\numberline {4.3.10}Adicionar Remição}{37}{subsection.4.3.10}%
-\contentsline {subsection}{\numberline {4.3.11}Visualizar Relatório}{38}{subsection.4.3.11}%
-\contentsline {subsection}{\numberline {4.3.12}Perfil do Usuário}{39}{subsection.4.3.12}%
-\contentsline {section}{\numberline {4.4}Exemplo Prático}{40}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Tecnologias Utilizadas}{41}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Privacidade e Segurança dos Dados}{42}{section.4.6}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{CalPEC}}{27}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Funcionalidades Principais}{27}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Modelagem do sistema}{28}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Diagrama de Casos de Uso}{28}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Diagrama de Classes}{29}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Diagrama de Sequência}{30}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Diagrama DER}{31}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Telas do Sistema}{32}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Tela de Login}{32}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Cadastro de Usuário}{32}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Tela Inicial}{33}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Listar Apenados}{34}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Registrar Apenado}{34}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Editar Apenado}{35}{subsection.4.3.6}%
+\contentsline {subsection}{\numberline {4.3.7}Listar Execuções}{36}{subsection.4.3.7}%
+\contentsline {subsection}{\numberline {4.3.8}Registrar Execução Criminal}{37}{subsection.4.3.8}%
+\contentsline {subsection}{\numberline {4.3.9}Editar Execução Criminal}{37}{subsection.4.3.9}%
+\contentsline {subsection}{\numberline {4.3.10}Adicionar Remição}{38}{subsection.4.3.10}%
+\contentsline {subsection}{\numberline {4.3.11}Visualizar Relatório}{39}{subsection.4.3.11}%
+\contentsline {subsection}{\numberline {4.3.12}Perfil do Usuário}{40}{subsection.4.3.12}%
+\contentsline {section}{\numberline {4.4}Exemplo Prático}{41}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Tecnologias Utilizadas}{42}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Privacidade e Segurança dos Dados}{43}{section.4.6}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusão}}{43}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusão}}{44}{chapter.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Trabalhos Futuros}}{44}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Trabalhos Futuros}}{45}{chapter.6}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{45}{section*.38}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{46}{section*.41}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
