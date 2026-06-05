@@ -2,14 +2,14 @@
 % Calculadora de Execução Penal
 % ----------------------------------------------------------
 \chapter{CalPEC}
-O presente Sistema Eletrônico para Cálculo do Processo de Execução Criminal desenvolve-se com o objetivo de automatizar o cálculo de execução criminal, facilitar para os usuários o trâmite burocrático e garantir que tanto o apenado quanto o responsável pelo uso da ferramenta tenham resultados eficazes com o proposto, em que, com as informações necessárias, ele possa dar continuidade ao processo e usar como relatórios para fins de comprovação e avanços necessários.
+O presente Sistema Eletrônico para Cálculo do Processo de Execução Criminal foi desenvolvido com o objetivo de automatizar o cálculo de execução criminal, facilitar para os usuários o trâmite burocrático e garantir que tanto o apenado quanto o responsável pelo uso da ferramenta tenham resultados eficazes com o proposto, em que, com as informações necessárias, ele possa dar continuidade ao processo e usar como relatórios para fins de comprovação e avanços necessários.
 
-A ideia é garantir que os dados precisos de progressão de pena, remissões, detrações sejam calculados corretamente, de forma simples e intuitiva, que, além de entregar o que promete, ainda garante a experiência de usuário. A ferramenta de cálculo visa facilitar o dia a dia do processo, a fim de minimizar os números de casos de ocorrências com falha durante o procedimento de cálculo criminal, causando riscos à segurança pública.
+A ideia foi garantir que os dados precisos de progressão de pena, remissões, detrações sejam calculados corretamente, de forma simples e intuitiva, que, além de entregar o que promete, ainda garante a experiência de usuário. A ferramenta de cálculo facilita o dia a dia do processo, a fim de minimizar os números de casos de ocorrências com falha durante o procedimento de cálculo criminal, causando riscos à segurança pública.
 
-A calculadora surgiu a partir da observação das dificuldades enfrentadas por advogados e demais pessoas da área, especialmente em relação às falhas manuais durante o procedimento de cálculo sob a pena existente. Essas dificuldades estão sendo comuns entre o público da justiça e podem comprometer o desenvolvimento do processo burocrático de execução penal. Diante desse cenário, identifica-se a necessidade de desenvolver uma ferramenta que facilite o procedimento. Nesse contexto, a calculadora está sendo desenvolvida para atender a essa demanda, proporcionando: fluidez, eficácia no resultado dos cálculos submetidos.
+A calculadora surgiu a partir da observação das dificuldades enfrentadas por advogados e demais pessoas da área, especialmente em relação às falhas manuais durante o procedimento de cálculo sob a pena existente. Essas dificuldades são comuns entre o público da justiça e podem comprometer o desenvolvimento do processo burocrático de execução penal. Diante desse cenário, identificou-se a necessidade de desenvolver uma ferramenta que facilite o procedimento. Nesse contexto, a calculadora foi desenvolvida para atender a essa demanda, proporcionando: fluidez, eficácia no resultado dos cálculos submetidos.
 
 \section{Funcionalidades Principais}
-Diante das necessidade e dificuldades expostas, o presente sistema apresenta as seguintes soluções práticas: 
+Diante das necessidades e dificuldades expostas, o presente sistema apresenta as seguintes soluções práticas: 
 
 \begin{itemize}
     \item Registrar remição;
@@ -26,7 +26,7 @@ Diante das necessidade e dificuldades expostas, o presente sistema apresenta as 
 
 \subsection{Diagrama de Casos de Uso}
 O Diagrama de Casos de Uso, apresentado na Figura~\ref{fig:casos-de-uso},
-representa as interações entre o ator do sistema (o Advogado) e as funcionalidades disponíveis no CalPEC. O ator pode cadastrar-se, fazer login, cadastrar apenados, registrar execuções e remições, além de poder acompanhar o status de progressão. As relações de \textit{include} exibi que o cálculo de benefícios é acionado automaticamente pelo sistema sempre que uma execução é registrada ou uma remição é cadastrada, resultando na exibição do status de progressão de regime, atualizando-se a cada alteração sob a execução.
+representa as interações entre o ator do sistema (o Advogado) e as funcionalidades disponíveis no CalPEC. O ator pode cadastrar-se, fazer login, cadastrar apenados, registrar execuções e remições, além de poder acompanhar o status de progressão. As relações de \textit{include} evidenciam que o cálculo de benefícios é acionado automaticamente pelo sistema sempre que uma execução é registrada ou uma remição é cadastrada, resultando na exibição do status de progressão de regime, atualizando-se a cada alteração sob a execução.
 
 \begin{figure}[H]
     \begin{center}
@@ -40,7 +40,7 @@ representa as interações entre o ator do sistema (o Advogado) e as funcionalid
 \newpage %COLOCADO PARA QUE O DIAGRAMA DE CLASSES FIQUE EM UMA PÁGINA SEPARADA, PARA MELHOR VISUALIZAÇÃO
 
 \subsection{Diagrama de Classes}
-O Diagrama de Classes Figura~\ref{fig:classes}, representa a estrutura sistema, mostrando as quatro classes principais: \textit{Usuario}, \textit{Apenado}, \textit{Execucao} e \textit{Remicao}. Um usuário pode cadastrar múltiplos apenados e criar múltiplas execuções. Cada execução concentra os dados de tempo de pena, período de detração, regime inicial e os resultados do cálculo automático, como data de término, progressão de regime e data final de pena. A classe \textit{Remicao} registra as remições contínuas ao longo do cumprimento da pena, recalculando automaticamente a progressão a cada novo registro, conforme os benefícios realizados.
+O Diagrama de Classes ilustrado na Figura~\ref{fig:classes}, representa a estrutura sistema, mostrando as quatro classes principais: \textit{Usuario}, \textit{Apenado}, \textit{Execucao} e \textit{Remicao}. Um usuário pode cadastrar múltiplos apenados e criar múltiplas execuções. Cada execução concentra os dados de tempo de pena, período de detração, regime inicial e os resultados do cálculo automático, como data de término, progressão de regime e data final de pena. A classe \textit{Remicao} registra as remições contínuas ao longo do cumprimento da pena, recalculando automaticamente a progressão a cada novo registro, conforme os benefícios realizados.
 
 \begin{figure}[H]
     \begin{center}
@@ -82,7 +82,7 @@ O Diagrama Entidade-Relacionamento, descreve a estrutura do banco de dados do si
 
 \section{Telas do Sistema}
 \subsection{Tela de Login}
-A Figura~\ref{fig:login} exibe a tela de login da calculadora, na qual o usuário pode realizar o login, caso já seja cadastrado, ou pode cadastrar-se clicando abaixo de "Cadastre-se". A tela de login é o ponto de partida para acessar o sisstema. Depois de realizar o cadastro, preenchendo o formulário com os dados solicitados(nome completo, email, CPF, n° OBA, telefone e senha de acesso), o usuário é redirecionado para a tela de login para acessar o sistema. O login é realizado por meio do e-mail/CPF e senha cadastrados.
+A Figura~\ref{fig:login} exibe a tela de login da calculadora, na qual o usuário pode realizar o login, caso já seja cadastrado, ou pode cadastrar-se clicando abaixo de "Cadastre-se". A tela de login é o ponto de partida para acessar o sistema. Depois de realizar o cadastro, preenchendo o formulário com os dados solicitados(nome completo, email, CPF, n°OAB, telefone e senha de acesso), o usuário é redirecionado para a tela de login para acessar o sistema. O login é realizado por meio do e-mail/CPF e senha cadastrados.
 \begin{figure}[H]
     \begin{center}
         \includegraphics[width=1.0\textwidth]{imagens/prototipo/login.png}
@@ -105,7 +105,7 @@ A Figura~\ref{fig:cadastro-usuario} apresenta a tela de cadastro do advogado no 
 \end{figure}
 
 \subsection{Tela Inicial}
-Após efetuar o login, o usuário navega até a página inicial do sistema, conforme a Figura~\ref{fig:tela-inicial}. A Tela Inicial apresenta a área de Apenados e Execuções, com mais clareza o design do sistema, enfatizando o objetivo principal do sistema. Ao clicar em uma das opções, o sistema carrega um pop-up de listagem, onde o usuário pode navegar para o registro de uma execução ou para o registro de um condenado.
+Após efetuar o login, o usuário navega até a página inicial do sistema, conforme a Figura~\ref{fig:tela-inicial}. A Tela Inicial apresenta, com clareza, as áreas de Apenados e Execuções do sistema, enfatizando o objetivo principal do sistema. Ao clicar em uma das opções, o sistema carrega um pop-up de listagem, onde o usuário pode navegar para o registro de uma execução ou para o registro de um condenado.
 
 \begin{figure}[H]
     \begin{center}
@@ -129,7 +129,7 @@ A Figura~\ref{fig:list-apenados} exibe a tela de listagem dos apenados cadastrad
 \end{figure}
 
 \subsection{Registrar Apenado}
-Ao clicar em "registrar apenado", o sistema navega até a página de cadastro do condenado, conforme a Figura~\ref{fig:tela-apenado}, onde inicialemente ele mostra a lista de apenados cadastrados no sistema \ref{fig:tela-listar-apenados}. Os campos necessários para preenchimento são: nome completo, número da execução ou processo e a data de nascimento do condenado. A idade de um apenado é um fator importante para a análise de benefícios específicos e condições de cumprimento da pena.
+Ao clicar em "registrar apenado", o sistema navega até a página de cadastro do condenado, conforme a Figura~\ref{fig:tela-apenado}. Os campos necessários para preenchimento são: nome completo, número da execução ou processo e a data de nascimento do condenado. A idade de um apenado é um fator importante para a análise de benefícios específicos e condições de cumprimento da pena.
 
 \begin{figure}[H]
     \begin{center}
@@ -174,7 +174,7 @@ A Figura~\ref{fig:list-execucoes} exibe a tela de listagem das execuções crimi
 \end{figure}
 
 \subsection{Registrar Execução Criminal}
-Ao clicar em "nova execução", o sistema navega até a página de registro penal, conforme a Figura~\ref{fig:tela-execucao}. Na presente página, antes de preencher os campos, o usuário primeira realiza a busca pelo apenado que deseja criar a execução. A busca pode ser realizada por meio do nome ou número do processo. No registro de execução, existem todos os campos necessários para gerar o processo de execução penal: tempo total da pena (pena-base definida), natureza do crime, a opção de marcação se o réu é reincidente ou primário, a data de início da pena, a data de início e fim da detração, os campos de remições iniciais, bem comoo preenchimento dos campos de benefícios por trabalho, estudo e leitura.
+Ao clicar em "nova execução", o sistema navega até a página de registro penal, conforme a Figura~\ref{fig:tela-execucao}. Na presente página, antes de preencher os campos, o usuário primeiramente realiza a busca pelo apenado que deseja criar a execução. A busca pode ser realizada por meio do nome ou número do processo. No registro de execução, existem todos os campos necessários para gerar o processo de execução penal: tempo total da pena (pena-base definida), natureza do crime, a opção de marcação se o réu é reincidente ou primário, a data de início da pena, a data de início e fim da detração, os campos de remições iniciais, bem como o preenchimento dos campos de benefícios por trabalho, estudo e leitura.
 
 \begin{figure}[H]
     \begin{center}
@@ -185,7 +185,7 @@ Ao clicar em "nova execução", o sistema navega até a página de registro pena
     \label{fig:tela-execucao}
 \end{figure}
 
-Além disso, o sistema tem a opção de usar uma calculadora que realiza calculos e conversões de dias para anos ou vice-versa, por meio do botão flutuante no canto inferior esquerdo da tela. Ademais, o sistema realiza o cálculo automático da progressão de regime, data de término da pena e status de progressão, com base nas informações preenchidas.
+Além disso, o sistema tem a opção de usar uma calculadora que realiza cálculos e conversões de dias para anos ou vice-versa, por meio do botão flutuante no canto inferior esquerdo da tela. Ademais, o sistema realiza o cálculo automático da progressão de regime, data de término da pena e status de progressão, com base nas informações preenchidas.
 
 \subsection{Editar Execução Criminal}
 A Figura~\ref{fig:edit-execucao} apresenta a tela de edição de uma execução criminal já cadastrada. Ao clicar em "editar execução", o formulário de edição se expande, permitindo a atualização dos dados registrados. Essa funcionalidade possibilita a correção ou atualização de qualquer informação da execução sem a necessidade de um novo cadastro.
@@ -236,7 +236,7 @@ A Figura~\ref{fig:perfil-user} exibe a tela de perfil do usuário logado, respon
 \end{figure}
 
 \section{Exemplo Prático}
-Diante do cenário apresentado, faz-se necessário explicar como funciona o fluxo do processo de execução penal do início ao fim. Inicialmente, identifica-se os dados essenciais: nome do condenado, a natureza do crime cometido, o tempo total de pena, regime inicial e data da prisão efetiva. A Vara Criminal expede a guia de execução criminal (GEP), contendo regimes, antecedentes, certidões. Essa guia faz parte da Vara de execuções penais, que autua no Processo de Execução Penal(PEC), por meio do sistema eletrônico SEEU. \cite{cnjSEEU}
+Diante do cenário apresentado, faz-se necessário explicar como funciona o fluxo do processo de execução penal do início ao fim. Inicialmente, identifica-se os dados essenciais: nome do condenado, a natureza do crime cometido, o tempo total de pena, regime inicial e data da prisão efetiva. A Vara Criminal expede a guia de execução criminal (GEP), contendo regimes, antecedentes, certidões. Essa guia faz parte da Vara de execuções penais, que autua no Processo de Execução Penal (PEC), por meio do sistema eletrônico SEEU. \cite{cnjSEEU}
 
 Por conseguinte, a GEP é enviada ao juízo de execução penal, que realiza a abertura do processo de execução penal (PEC). Com a abertura da PEC, o advogado responsável pelo caso tem acesso aos dados: pena total, data de início, regime, detração, datas-base para benefícios (progressão, livramento condicional, saída temporária). 
 
@@ -279,7 +279,7 @@ O desenvolvimento da calculadora de execução criminal envolveu a seleção de 
 
 Primeiramente, para o desenvolvimento do frontend, foi utilizado o React, biblioteca JavaScript amplamente adotada no desenvolvimento de interfaces web. A escolha se deu pela experiência prévia com a tecnologia em projetos anteriores, o que possibilitou maior segurança no desenvolvimento dos componentes e na gestão do estado da aplicação. A aplicação frontend está hospedada na plataforma Vercel.
 
-Ademais, para o backend, optou-se pelo framework FastAPI, baseado em Python. A linguagem Python se destacou pela praticidade e pela legibilidade do código, facilitando a implementação da lógica de negócio responsável pelos cálculos de execução penal(operações que envolvem datas, frações e percentuais) que exigem precisão e clareza no código. O serviço de backend está hospedado na plataforma Render.
+Ademais, para o backend, optou-se pelo framework FastAPI, baseado em Python. A linguagem Python se destacou pela praticidade e pela legibilidade do código, facilitando a implementação da lógica de negócio responsável pelos cálculos de execução penal (operações que envolvem datas, frações e percentuais) que exigem precisão e clareza no código. O serviço de backend está hospedado na plataforma Render.
 
 Por fim, para o banco de dados, definiu-se o PostgreSQL, sistema gerenciador de banco de dados relacional robusto e amplamente utilizado em aplicações de produção. A escolha se deve à vivência anterior com a tecnologia, o que permitiu uma modelagem eficiente, garantindo a integridade e a segurança dos dados armazenados. O banco de dados está 
 hospedado na plataforma Supabase.
