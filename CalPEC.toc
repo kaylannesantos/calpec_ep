@@ -23,7 +23,7 @@
 \contentsline {section}{\numberline {3.3}Calculadora de Execução Penal}{23}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Calculadora de execução penal}{24}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Calculadora de execução penal Online}{24}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Comparação Trabalhos Relacionados}{25}{section.3.6}%
+\contentsline {section}{\numberline {3.6}Trabalhos Relacionados}{25}{section.3.6}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{CalPEC}}{27}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Funcionalidades Principais}{27}{section.4.1}%
@@ -49,11 +49,11 @@
 \contentsline {section}{\numberline {4.5}Tecnologias Utilizadas}{43}{section.4.5}%
 \contentsline {section}{\numberline {4.6}Privacidade e Segurança dos Dados}{43}{section.4.6}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusão}}{44}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusão}}{45}{chapter.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Trabalhos Futuros}}{45}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Trabalhos Futuros}}{46}{chapter.6}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{46}{section*.41}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{47}{section*.41}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }

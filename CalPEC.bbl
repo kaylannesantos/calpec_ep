@@ -63,7 +63,7 @@ Dispon{\'\i}vel em: \url{https://buscacdp.com.br/calculadora}.}
   integralmente a pena em regime fechado}. 2024.
 Acesso em: 01 dez. 2025.
 Dispon{\'\i}vel em:
-  \url{https://www.defensoria.ce.def.br/noticia/reu-aguarda-soltura-apos-cumprir-integralmente-a-pena-em-regime-fechado-execucao-antecipada-da-pena-pode-levar-a-prisao-indevida/}.}
+  \url{https://www.defensoria.ce.def.br/noticia/reu-aguarda-soltura}.}
 
 \bibitem[Criminalista 2025]{fernandoCruzCalc}
 \abntrefinfo{Criminalista}{CRIMINALISTA}{2025}
@@ -71,6 +71,13 @@ Dispon{\'\i}vel em:
 Acesso em: 01 dez. 2025.
 Dispon{\'\i}vel em:
   \url{https://fernandacruzcriminalista.com.br/calculadora/aluno/\#/}.}
+
+\bibitem[{Evan You and Contributors} 2024]{vite}
+\abntrefinfo{{Evan You and Contributors}}{{Evan You and Contributors}}{2024}
+{{Evan You and Contributors}. \textbf{Vite -- Next Generation Frontend
+  Tooling}. 2024.
+Versão 5.2.11. Acesso em: 04 jun. 2026.
+Dispon{\'\i}vel em: \url{https://vitejs.dev}.}
 
 \bibitem[Jurisdiques 2025]{jurisdiques}
 \abntrefinfo{Jurisdiques}{JURISDIQUES}{2025}
@@ -94,12 +101,52 @@ Acesso em: 09 dez. 2025.
 Dispon{\'\i}vel em:
   \url{https://www.cnj.jus.br/sistema-carcerario/sistema-eletronico-de-execucao-unificado-seeu/}.}
 
+\bibitem[{Meta Platforms, Inc.} 2024]{react}
+\abntrefinfo{{Meta Platforms, Inc.}}{{Meta Platforms, Inc.}}{2024}
+{{Meta Platforms, Inc.} \textbf{React -- A JavaScript library for building user
+  interfaces}. 2024.
+Versão 18.3.1. Acesso em: 04 jun. 2026.
+Dispon{\'\i}vel em: \url{https://react.dev}.}
+
 \bibitem[Penais 2025]{senappen2025}
 \abntrefinfo{Penais}{PENAIS}{2025}
-{PENAIS, S.~N. de P. \textbf{Levantamento de Informações Penitenciárias
-  referente ao primeiro semestre de 2025}. 2025.
+{PENAIS, S.~N. de P. \textbf{Levantamento de Informações Penitenciárias --
+  1º semestre de 2025}. 2025.
 Acesso em: 04 jun. 2026.
-Dispon{\'\i}vel em:
-  \url{https://www.gov.br/senappen/pt-br/assuntos/noticias/senappen-divulga-levantamento-de-informacoes-penitenciarias-referente-ao-primeiro-semestre-de-2025}.}
+Dispon{\'\i}vel em: \url{https://www.gov.br/senappen/pt-br/assuntos/noticias}.}
+
+\bibitem[{Render Services, Inc.} 2024]{render}
+\abntrefinfo{{Render Services, Inc.}}{{Render Services, Inc.}}{2024}
+{{Render Services, Inc.} \textbf{Render -- Cloud Application Hosting}. 2024.
+Acesso em: 04 jun. 2026.
+Dispon{\'\i}vel em: \url{https://render.com}.}
+
+\bibitem[{Sebastián Ramírez} 2024]{fastapi}
+\abntrefinfo{{Sebastián Ramírez}}{{Sebastián Ramírez}}{2024}
+{{Sebastián Ramírez}. \textbf{FastAPI -- Modern, fast web framework for
+  building APIs with Python}. 2024.
+Versão 0.115.0. Acesso em: 04 jun. 2026.
+Dispon{\'\i}vel em: \url{https://fastapi.tiangolo.com}.}
+
+\bibitem[{Supabase, Inc.} 2024]{supabase}
+\abntrefinfo{{Supabase, Inc.}}{{Supabase, Inc.}}{2024}
+{{Supabase, Inc.} \textbf{Supabase -- The Open Source Firebase Alternative}.
+  2024.
+Acesso em: 04 jun. 2026.
+Dispon{\'\i}vel em: \url{https://supabase.com}.}
+
+\bibitem[{The PostgreSQL Global Development Group} 2024]{postgresql}
+\abntrefinfo{{The PostgreSQL Global Development Group}}{{The PostgreSQL Global
+  Development Group}}{2024}
+{{The PostgreSQL Global Development Group}. \textbf{PostgreSQL -- The World's
+  Most Advanced Open Source Relational Database}. 2024.
+Versão 17.6. Acesso em: 04 jun. 2026.
+Dispon{\'\i}vel em: \url{https://www.postgresql.org}.}
+
+\bibitem[{Vercel, Inc.} 2024]{vercel}
+\abntrefinfo{{Vercel, Inc.}}{{Vercel, Inc.}}{2024}
+{{Vercel, Inc.} \textbf{Vercel -- Develop. Preview. Ship.} 2024.
+Acesso em: 04 jun. 2026.
+Dispon{\'\i}vel em: \url{https://vercel.com}.}
 
 \end{thebibliography}

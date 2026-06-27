@@ -278,12 +278,14 @@ Posteriormente, as remições futuras serão computadas sob a pena sempre que ne
 
 O desenvolvimento da calculadora de execução criminal envolveu a seleção de tecnologias modernas, levando em consideração não apenas o quesito técnico de adequação ao projeto, mas também a familiaridade e experiência com cada ferramenta escolhida, visando garantir um sistema eficiente e robusto.
 
-Primeiramente, para o desenvolvimento do frontend, foi utilizado o React, biblioteca JavaScript amplamente adotada no desenvolvimento de interfaces web. A escolha se deu pela experiência prévia com a tecnologia em projetos anteriores, o que possibilitou maior segurança no desenvolvimento dos componentes e na gestão do estado da aplicação. A aplicação frontend está hospedada na plataforma Vercel.
+Primeiramente, para o desenvolvimento do frontend, foi utilizado o React 18.3.1\cite{react}, biblioteca JavaScript amplamente adotada no desenvolvimento de interfaces web, disponível em \url{https://react.dev}. A escolha se deu pela experiência prévia com a tecnologia em projetos anteriores, o que possibilitou maior segurança no desenvolvimento dos componentes e na gestão do estado da aplicação. O projeto frontend foi estruturado com o Vite 5.2.11\cite{vite}, ferramenta de build moderna que proporciona maior desempenho no desenvolvimento, disponível em \url{https://vitejs.dev}. A aplicação frontend está hospedada na plataforma Vercel\cite{vercel} (\url{https://vercel.com}).
 
-Ademais, para o backend, optou-se pelo framework FastAPI, baseado em Python. A linguagem Python se destacou pela praticidade e pela legibilidade do código, facilitando a implementação da lógica de negócio responsável pelos cálculos de execução penal (operações que envolvem datas, frações e percentuais) que exigem precisão e clareza no código. O serviço de backend está hospedado na plataforma Render.
+Ademais, para o backend, optou-se pelo framework FastAPI 
+0.115.0\cite{fastapi}, baseado em Python 3.13.3, disponível em \url{https://fastapi.tiangolo.com}. A linguagem Python se destacou pela praticidade e pela legibilidade do código, facilitando a implementação da lógica de negócio responsável pelos cálculos de execução penal (operações que envolvem datas, frações e percentuais) que exigem precisão e clareza no código. O serviço de backend está hospedado na plataforma Render\cite{render} (\url{https://render.com}).
 
-Por fim, para o banco de dados, definiu-se o PostgreSQL, sistema gerenciador de banco de dados relacional robusto e amplamente utilizado em aplicações de produção. A escolha se deve à vivência anterior com a tecnologia, o que permitiu uma modelagem eficiente, garantindo a integridade e a segurança dos dados armazenados. O banco de dados está 
-hospedado na plataforma Supabase.
+Por fim, para o banco de dados, definiu-se o PostgreSQL 
+17.6\cite{postgresql}, sistema gerenciador de banco de dados relacional robusto e amplamente utilizado em aplicações de produção, disponível em \url{https://www.postgresql.org}. A escolha se deve à vivência anterior com a tecnologia, o que permitiu uma modelagem eficiente, garantindo a integridade e a segurança dos dados armazenados. O banco de dados está hospedado na plataforma Supabase\cite{supabase} 
+(\url{https://supabase.com}), que oferece uma camada gerenciada sobre o PostgreSQL, facilitando a administração e o acesso remoto com segurança.
 
 \section{Privacidade e Segurança dos Dados}
 

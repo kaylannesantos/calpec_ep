@@ -453,6 +453,16 @@ INPUT .\configuracoes\espacamentos.tex
 INPUT .\configuracoes\espacamentos.tex
 INPUT .\configuracoes\espacamentos.tex
 INPUT configuracoes\espacamentos.tex
+INPUT C:\Users\Kaylanne\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\pifont.sty
+INPUT C:\Users\Kaylanne\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\pifont.sty
+INPUT C:\Users\Kaylanne\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\upzd.fd
+INPUT C:\Users\Kaylanne\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\upzd.fd
+INPUT C:\Users\Kaylanne\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\upzd.fd
+INPUT C:\Users\Kaylanne\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\zapfding\pzdr.tfm
+INPUT C:\Users\Kaylanne\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\upsy.fd
+INPUT C:\Users\Kaylanne\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\upsy.fd
+INPUT C:\Users\Kaylanne\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\upsy.fd
+INPUT C:\Users\Kaylanne\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
 INPUT .\CalPEC.aux
 INPUT .\CalPEC.aux
 INPUT CalPEC.aux
@@ -534,6 +544,9 @@ INPUT .\pre-textual\dedicatoria.tex
 INPUT .\pre-textual\dedicatoria.tex
 INPUT .\pre-textual\dedicatoria.tex
 INPUT pre-textual\dedicatoria.tex
+INPUT C:\Users\Kaylanne\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
+INPUT C:\Users\Kaylanne\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro8t.vf
+INPUT C:\Users\Kaylanne\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
 INPUT .\pre-textual\agradecimentos.tex
 INPUT .\pre-textual\agradecimentos.tex
 INPUT .\pre-textual\agradecimentos.tex
@@ -544,9 +557,6 @@ INPUT .\pre-textual\epigrafe.tex
 INPUT .\pre-textual\epigrafe.tex
 INPUT .\pre-textual\epigrafe.tex
 INPUT pre-textual\epigrafe.tex
-INPUT C:\Users\Kaylanne\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
-INPUT C:\Users\Kaylanne\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro8t.vf
-INPUT C:\Users\Kaylanne\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
 INPUT .\pre-textual\resumo.tex
 INPUT .\pre-textual\resumo.tex
 INPUT .\pre-textual\resumo.tex
@@ -814,3 +824,5 @@ INPUT C:\Users\Kaylanne\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\u
 INPUT C:\Users\Kaylanne\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvr8a.pfb
 INPUT C:\Users\Kaylanne\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvro8a.pfb
 INPUT C:\Users\Kaylanne\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvro8a.pfb
+INPUT C:\Users\Kaylanne\AppData\Local\Programs\MiKTeX\fonts\type1\urw\zapfding\uzdr.pfb
+INPUT C:\Users\Kaylanne\AppData\Local\Programs\MiKTeX\fonts\type1\urw\zapfding\uzdr.pfb

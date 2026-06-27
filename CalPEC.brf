@@ -35,5 +35,12 @@
 \backcite {fernandoCruzCalc, saraBarbozaCalc}{{25}{3.6}{section.3.6}}
 \backcite {fernandoCruzCalc, saraBarbozaCalc}{{25}{3.6}{section.3.6}}
 \backcite {cnjSEEU}{{41}{4.4}{section.4.4}}
+\backcite {react}{{43}{4.5}{section.4.5}}
+\backcite {vite}{{43}{4.5}{section.4.5}}
+\backcite {vercel}{{43}{4.5}{section.4.5}}
+\backcite {fastapi}{{43}{4.5}{section.4.5}}
+\backcite {render}{{43}{4.5}{section.4.5}}
+\backcite {postgresql}{{43}{4.5}{section.4.5}}
+\backcite {supabase}{{43}{4.5}{section.4.5}}
 \backcite {lgpd}{{43}{4.6}{section.4.6}}
-\backcite {lgpd}{{45}{6}{chapter.6}}
+\backcite {lgpd}{{46}{6}{chapter.6}}
