@@ -24,56 +24,56 @@ Diante das necessidades e dificuldades expostas, o presente sistema apresenta as
 
 \section{Modelagem do sistema}
 
-\subsection{Diagrama de Casos de Uso}
+\subsection{Diagrama de casos de uso}
 O Diagrama de Casos de Uso, apresentado na Figura~\ref{fig:casos-de-uso},
 representa as interações entre o ator do sistema (o Advogado) e as funcionalidades disponíveis no CalPEC. O ator pode cadastrar-se, fazer login, cadastrar apenados, registrar execuções e remições, além de poder acompanhar o status de progressão. As relações de \textit{include} evidenciam que o cálculo de benefícios é acionado automaticamente pelo sistema sempre que uma execução é registrada ou uma remição é cadastrada, resultando na exibição do status de progressão de regime, atualizando-se a cada alteração sob a execução.
 
 \begin{figure}[H]
+    \caption{Diagrama de Casos de Uso.}
     \begin{center}
         \includegraphics[width=0.6\textwidth]{imagens/diagramas/casos-de-uso.png}
     \end{center}
-    \caption{Diagrama de Casos de Uso.}
     \legend{Fonte: Elaborado pelo Autor}
     \label{fig:casos-de-uso}
 \end{figure}
 
 \newpage %COLOCADO PARA QUE O DIAGRAMA DE CLASSES FIQUE EM UMA PÁGINA SEPARADA, PARA MELHOR VISUALIZAÇÃO
 
-\subsection{Diagrama de Classes}
+\subsection{Diagrama de classes}
 O Diagrama de Classes ilustrado na Figura~\ref{fig:classes}, representa a estrutura sistema, mostrando as quatro classes principais: \textit{Usuario}, \textit{Apenado}, \textit{Execucao} e \textit{Remicao}. Um usuário pode cadastrar múltiplos apenados e criar múltiplas execuções. Cada execução concentra os dados de tempo de pena, período de detração, regime inicial e os resultados do cálculo automático, como data de término, progressão de regime e data final de pena. A classe \textit{Remicao} registra as remições contínuas ao longo do cumprimento da pena, recalculando automaticamente a progressão a cada novo registro, conforme os benefícios realizados.
 
 \begin{figure}[H]
+    \caption{Diagrama de Classes.}
     \begin{center}
         \includegraphics[width=1.1\textwidth]{imagens/diagramas/classes.png}
     \end{center}
-    \caption{Diagrama de Classes.}
     \legend{Fonte: Elaborado pelo Autor}
     \label{fig:classes}
 \end{figure}
 
 \newpage %COLOCADO PARA QUE O DIAGRAMA DE SEQUÊNCIA FIQUE EM UMA PÁGINA SEPARADA, PARA MELHOR VISUALIZAÇÃO
-\subsection{Diagrama de Sequência}
+\subsection{Diagrama de sequência}
 O Diagrama de Sequência demonstra o fluxo completo de interação entre o Advogado, o Sistema e o Banco de Dados, conforme mostra na Figura~\ref{fig:sequencia}. O fluxo inicia com o cadastro e login do usuário, seguido do cadastro do apenado e do registro da execução penal, momento em que o sistema realiza automaticamente o cálculo da pena total, detração, remição inicial e progressão de regime, persistindo o
 resultado no banco de dados. Por fim, o diagrama ilustra o registro de novas remições ao longo do tempo, que realizam o recálculo automático da progressão e do término da pena.
 
 \begin{figure}[H]
+    \caption{Diagrama de Sequência.}
     \begin{center}
         \includegraphics[width=1.0\textwidth]{imagens/diagramas/sequencia.png}
     \end{center}
-    \caption{Diagrama de Sequência.}
     \legend{Fonte: Elaborado pelo Autor}
     \label{fig:sequencia}
 \end{figure}
 
 \newpage %COLOCADO PARA QUE O DIAGRAMA DER FIQUE EM UMA PÁGINA SEPARADA, PARA MELHOR VISUALIZAÇÃO
-\subsection{Diagrama DER}
+\subsection{Diagrama de entidade-relacionamento}
 O Diagrama Entidade-Relacionamento, descreve a estrutura do banco de dados do sistema CalPEC. A entidade central é \textit{EXECUCAO}, que se relaciona diretamente com \textit{APENADO}, \textit{USUARIO} e \textit{REMICAO}, Figura~\ref{fig:der}. A entidade \textit{USUARIO} representa o advogado cadastrado no sistema, responsável pelo cadastro dos apenados e pela criação das execuções. A entidade \textit{REMICAO} registra individualmente cada atividade de remição realizada pelo apenado, mantendo o histórico completo para fins de cálculo e comprovação.
 
 \begin{figure}[H]
+    \caption{Diagrama Entidade-Relacionamento.}
     \begin{center}
         \includegraphics[width=1.0\textwidth]{imagens/diagramas/der.png}
     \end{center}
-    \caption{Diagrama Entidade-Relacionamento.}
     \legend{Fonte: Elaborado pelo Autor}
     \label{fig:der}
 \end{figure}
@@ -81,144 +81,144 @@ O Diagrama Entidade-Relacionamento, descreve a estrutura do banco de dados do si
 \newpage %SEÇÃO DE TELAS DO SISTEMA
 
 \section{Telas do Sistema}
-\subsection{Tela de Login}
+\subsection{Tela de login}
 A Figura~\ref{fig:login} exibe a tela de login da calculadora, na qual o usuário pode realizar o login, caso já seja cadastrado, ou pode cadastrar-se clicando abaixo de "Cadastre-se". A tela de login é o ponto de partida para acessar o sistema. Depois de realizar o cadastro, preenchendo o formulário com os dados solicitados(nome completo, email, CPF, n°OAB, telefone e senha de acesso), o usuário é redirecionado para a tela de login para acessar o sistema. O login é realizado por meio do e-mail/CPF e senha cadastrados.
 \begin{figure}[H]
+    \caption{Tela de Login.}
     \begin{center}
         \includegraphics[width=1.0\textwidth]{imagens/prototipo/login.png}
     \end{center}
-    \caption{Tela de Login.}
     \legend{Fonte: Elaborado pelo Autor}
     \label{fig:login}
 \end{figure}
 
-\subsection{Cadastro de Usuário}
+\subsection{Cadastro de usuário}
 A Figura~\ref{fig:cadastro-usuario} apresenta a tela de cadastro do advogado no sistema. Por ser o único perfil de usuário do CalPEC, o cadastro é realizado diretamente nessa tela, que solicita as informações necessárias para identificação e acesso: nome completo, e-mail, CPF, número da OAB, telefone e senha. Após o cadastro, o advogado é redirecionado para a tela de login para acessar o sistema.
 
 \begin{figure}[H]
+    \caption{Cadastro de Usuário.}
     \begin{center}
         \includegraphics[width=1.0\textwidth]{imagens/prototipo/cadastrar-usuario.png}
     \end{center}
-    \caption{Cadastro de Usuário.}
     \legend{Fonte: Elaborado pelo Autor}
     \label{fig:cadastro-usuario}
 \end{figure}
 
-\subsection{Tela Inicial}
+\subsection{Tela inicial}
 Após efetuar o login, o usuário navega até a página inicial do sistema, conforme a Figura~\ref{fig:tela-inicial}. A Tela Inicial apresenta, com clareza, as áreas de Apenados e Execuções do sistema, enfatizando o objetivo principal do sistema. Ao clicar em uma das opções, o sistema carrega um pop-up de listagem, onde o usuário pode navegar para o registro de uma execução ou para o registro de um condenado.
 
 \begin{figure}[H]
+    \caption{Tela Inicial.}
     \begin{center}
         \includegraphics[width=1.0\textwidth]{imagens/prototipo/tela-inicial.png}
     \end{center}
-    \caption{Tela Inicial.}
     \legend{Fonte: Elaborado pelo Autor}
     \label{fig:tela-inicial}
 \end{figure}
 
-\subsection{Listar Apenados}
+\subsection{Listar apenados}
 A Figura~\ref{fig:list-apenados} exibe a tela de listagem dos apenados cadastrados no sistema. Nela, o advogado tem uma visão geral de todos os apenados registrados, podendo acessar os detalhes de cada um, editar suas informações ou navegar para o registro de uma nova execução penal vinculada ao apenado selecionado.
 
 \begin{figure}[H]
+    \caption{Listar Apenados.}
     \begin{center}
         \includegraphics[width=1.0\textwidth]{imagens/prototipo/list-apenados.png}
     \end{center}
-    \caption{Listar Apenados.}
     \legend{Fonte: Elaborado pelo Autor}
     \label{fig:list-apenados}
 \end{figure}
 
-\subsection{Registrar Apenado}
+\subsection{Registrar apenado}
 Ao clicar em "registrar apenado", o sistema navega até a página de cadastro do condenado, conforme a Figura~\ref{fig:tela-apenado}. Os campos necessários para preenchimento são: nome completo, número da execução ou processo e a data de nascimento do condenado. A idade de um apenado é um fator importante para a análise de benefícios específicos e condições de cumprimento da pena.
 
 \begin{figure}[H]
+    \caption{Registrar Apenado.}
     \begin{center}
         \includegraphics[width=1.0\textwidth]{imagens/prototipo/add-apenado.png}
     \end{center}
-    \caption{Registrar Apenado.}
     \legend{Fonte: Elaborado pelo Autor}
     \label{fig:tela-apenado}
 \end{figure}
 
 \begin{figure}[H]
+    \caption{Listar Apenados.}
     \begin{center}
         \includegraphics[width=1.0\textwidth]{imagens/prototipo/list-apenados.png}
     \end{center}
-    \caption{Listar Apenados.}
     \legend{Fonte: Elaborado pelo Autor}
     \label{fig:tela-listar-apenados}
 \end{figure}
 
-\subsection{Editar Apenado}
+\subsection{Editar apenado}
 A Figura~\ref{fig:edit-apenado} apresenta a tela de edição dos dados do apenado. Ao clicar em "editar" no apenado desejado, o formulário de edição se expande, permitindo a atualização das informações cadastradas. Essa funcionalidade garante que os dados do apenado possam ser corrigidos ou atualizados sempre que necessário, sem a necessidade de um novo cadastro.
 
 \begin{figure}[H]
+    \caption{Editar Apenado.}
     \begin{center}
         \includegraphics[width=1.0\textwidth]{imagens/prototipo/edit-apenado.png}
     \end{center}
-    \caption{Editar Apenado.}
     \legend{Fonte: Elaborado pelo Autor}
     \label{fig:edit-apenado}
 \end{figure}
 
-\subsection{Listar Execuções}
+\subsection{Listar execuções}
 A Figura~\ref{fig:list-execucoes} exibe a tela de listagem das execuções criminais cadastradas no sistema. O usuário tem acesso a todas as execuções registradas, podendo visualizar o status de progressão de cada uma, acessar o relatório completo ou registrar novas remições, mantendo o acompanhamento contínuo do cumprimento da pena.
 
 \begin{figure}[H]
+    \caption{Listar Execuções.}
     \begin{center}
         \includegraphics[width=1.0\textwidth]{imagens/prototipo/list-execucoes.png}
     \end{center}
-    \caption{Listar Execuções.}
     \legend{Fonte: Elaborado pelo Autor}
     \label{fig:list-execucoes}
 \end{figure}
 
-\subsection{Registrar Execução Criminal}
+\subsection{Registrar execução criminal}
 Ao clicar em "nova execução", o sistema navega até a página de registro penal, conforme a Figura~\ref{fig:tela-execucao}. Na presente página, antes de preencher os campos, o usuário primeiramente realiza a busca pelo apenado que deseja criar a execução. A busca pode ser realizada por meio do nome ou número do processo. No registro de execução, existem todos os campos necessários para gerar o processo de execução penal: tempo total da pena (pena-base definida), natureza do crime, a opção de marcação se o réu é reincidente ou primário, a data de início da pena, a data de início e fim da detração, os campos de remições iniciais, bem como o preenchimento dos campos de benefícios por trabalho, estudo e leitura.
 
 \begin{figure}[H]
+    \caption{Registrar Execução Criminal.}
     \begin{center}
         \includegraphics[width=1.0\textwidth]{imagens/prototipo/add-execucao.png}
     \end{center}
-    \caption{Registrar Execução Criminal.}
     \legend{Fonte: Elaborado pelo Autor}
     \label{fig:tela-execucao}
 \end{figure}
 
 Além disso, o sistema tem a opção de usar uma calculadora que realiza cálculos e conversões de dias para anos ou vice-versa, por meio do botão flutuante no canto inferior esquerdo da tela. Ademais, o sistema realiza o cálculo automático da progressão de regime, data de término da pena e status de progressão, com base nas informações preenchidas.
 
-\subsection{Editar Execução Criminal}
+\subsection{Editar execução criminal}
 A Figura~\ref{fig:edit-execucao} apresenta a tela de edição de uma execução criminal já cadastrada. Ao clicar em "editar execução", o formulário de edição se expande, permitindo a atualização dos dados registrados. Essa funcionalidade possibilita a correção ou atualização de qualquer informação da execução sem a necessidade de um novo cadastro.
 
 \begin{figure}[H]
+    \caption{Editar Execução Criminal.}
     \begin{center}
         \includegraphics[width=1.0\textwidth]{imagens/prototipo/edit-execucao.png}
     \end{center}
-    \caption{Editar Execução Criminal.}
     \legend{Fonte: Elaborado pelo Autor}
     \label{fig:edit-execucao}
 \end{figure}
 
-\subsection{Adicionar Remição}
+\subsection{Adicionar remição}
 A Figura~\ref{fig:add-remicao} exibe a tela de registro de uma nova remição. O advogado informa o tipo de remição (trabalho, estudo ou leitura), a quantidade correspondente e o período de referência. Ao confirmar o registro, o sistema recalcula automaticamente a progressão de regime e o término da pena, atualizando o status da execução com base na nova remição computada.
 
 \begin{figure}[H]
+    \caption{Adicionar Remição.}
     \begin{center}
         \includegraphics[width=1.0\textwidth]{imagens/prototipo/add-remicao.png}
     \end{center}
-    \caption{Adicionar Remição.}
     \legend{Fonte: Elaborado pelo Autor}
     \label{fig:add-remicao}
 \end{figure}
 
-\subsection{Visualizar Relatório}
+\subsection{Visualizar relatório}
 A Figura~\ref{fig:view-relatorio} apresenta a tela de visualização do relatório da execução. Gerado automaticamente pelo sistema, o relatório reúne em formato de documento formal todas as informações da execução: dados do apenado, pena total, detração, remições computadas, regime atual, data de progressão e data de término da pena.
 
 \begin{figure}[H]
+    \caption{Visualizar Relatório.}
     \begin{center}
         \includegraphics[width=1.0\textwidth]{imagens/prototipo/view-relatorio.png}
     \end{center}
-    \caption{Visualizar Relatório.}
     \legend{Fonte: Elaborado pelo Autor}
     \label{fig:view-relatorio}
 \end{figure}
@@ -227,10 +227,10 @@ A Figura~\ref{fig:view-relatorio} apresenta a tela de visualização do relatór
 A Figura~\ref{fig:perfil-user} exibe a tela de perfil do usuário logado, responsável pelo uso do sistema. Nela são apresentados os dados cadastrais do usuário, como nome, e-mail, CPF e número da OAB, permitindo a visualização e eventual atualização das informações de cadastro diretamente pela plataforma. Essa aba permite que o usuário mantenha seus dados atualizados, com campos editáveis caso o usuário necessite de alterações.
 
 \begin{figure}[H]
+    \caption{Perfil do Usuário.}
     \begin{center}
         \includegraphics[width=1.0\textwidth]{imagens/prototipo/perfil-user.png}
     \end{center}
-    \caption{Perfil do Usuário.}
     \legend{Fonte: Elaborado pelo Autor}
     \label{fig:perfil-user}
 \end{figure}
