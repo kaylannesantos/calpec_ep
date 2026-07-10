@@ -8,7 +8,7 @@ A ideia foi garantir que os dados precisos de progressão de pena, remissões, d
 
 A calculadora surgiu a partir da observação das dificuldades enfrentadas por advogados e demais pessoas da área, especialmente em relação às falhas manuais durante o procedimento de cálculo sob a pena existente. Essas dificuldades são comuns entre o público da justiça e podem comprometer o desenvolvimento do processo burocrático de execução penal. Diante desse cenário, identificou-se a necessidade de desenvolver uma ferramenta que facilite o procedimento. Nesse contexto, a calculadora foi desenvolvida para atender a essa demanda, proporcionando: fluidez, eficácia no resultado dos cálculos submetidos.
 
-\section{Funcionalidades Principais}
+\section{FUNCIONALIDADES PRINCIPAIS}
 Diante das necessidades e dificuldades expostas, o presente sistema apresenta as seguintes soluções práticas: 
 
 \begin{itemize}
@@ -22,7 +22,7 @@ Diante das necessidades e dificuldades expostas, o presente sistema apresenta as
     \item Cadastrar Advogado;
 \end{itemize}
 
-\section{Modelagem do sistema}
+\section{MODELAGEM DO SISTEMA}
 
 \subsection{Diagrama de casos de uso}
 O Diagrama de Casos de Uso, apresentado na Figura~\ref{fig:casos-de-uso},
@@ -80,7 +80,7 @@ O Diagrama Entidade-Relacionamento, descreve a estrutura do banco de dados do si
 
 \newpage %SEÇÃO DE TELAS DO SISTEMA
 
-\section{Telas do Sistema}
+\section{TELAS DO SISTEMA}
 \subsection{Tela de login}
 A Figura~\ref{fig:login} exibe a tela de login da calculadora, na qual o usuário pode realizar o login, caso já seja cadastrado, ou pode cadastrar-se clicando abaixo de "Cadastre-se". A tela de login é o ponto de partida para acessar o sistema. Depois de realizar o cadastro, preenchendo o formulário com os dados solicitados(nome completo, email, CPF, n°OAB, telefone e senha de acesso), o usuário é redirecionado para a tela de login para acessar o sistema. O login é realizado por meio do e-mail/CPF e senha cadastrados.
 \begin{figure}[H]
@@ -235,7 +235,7 @@ A Figura~\ref{fig:perfil-user} exibe a tela de perfil do usuário logado, respon
     \label{fig:perfil-user}
 \end{figure}
 
-\section{Exemplo Prático}
+\section{EXEMPLO PRÁTICO}
 Diante do cenário apresentado, faz-se necessário explicar como funciona o fluxo do processo de execução penal do início ao fim. Inicialmente, identificam-se os dados essenciais: nome do condenado, a natureza do crime cometido, o tempo total de pena, regime inicial e data da prisão efetiva. A Vara Criminal expede a guia de execução criminal (GEP), contendo regimes, antecedentes, certidões. Essa guia faz parte da Vara de execuções penais, que autua no Processo de Execução Penal (PEC), por meio do sistema eletrônico SEEU. O exemplo a seguir 
 ilustra como esse cálculo é realizado de forma manual, processo que o CalPEC automatiza, eliminando a necessidade de operações manuais e reduzindo a margem de erro.\cite{cnjSEEU}
 
@@ -274,7 +274,7 @@ Sendo necessários ainda 419 dias para progredir de regime:
 \end{equation*}
 Posteriormente, as remições futuras serão computadas sob a pena sempre que necessário, seguidas de atualizações sempre que houver alterações, podendo haver situações de remição ou de regressão, caso o apenado não pratique as condutas corretas.
 
-\section{Tecnologias Utilizadas}
+\section{TECNOLOGIAS UTILIZADAS}
 
 O desenvolvimento da calculadora de execução criminal envolveu a seleção de tecnologias modernas, levando em consideração não apenas o quesito técnico de adequação ao projeto, mas também a familiaridade e experiência com cada ferramenta escolhida, visando garantir um sistema eficiente e robusto.
 
@@ -287,7 +287,7 @@ Por fim, para o banco de dados, definiu-se o PostgreSQL
 17.6\cite{postgresql}, sistema gerenciador de banco de dados relacional robusto e amplamente utilizado em aplicações de produção, disponível em \url{https://www.postgresql.org}. A escolha se deve à vivência anterior com a tecnologia, o que permitiu uma modelagem eficiente, garantindo a integridade e a segurança dos dados armazenados. O banco de dados está hospedado na plataforma Supabase\cite{supabase} 
 (\url{https://supabase.com}), que oferece uma camada gerenciada sobre o PostgreSQL, facilitando a administração e o acesso remoto com segurança.
 
-\section{Privacidade e Segurança dos Dados}
+\section{PRIVACIDADE E SEGURANÇA DE DADOS}
 
 Por lidar com dados sensíveis de pessoas condenadas, o CalPEC foi desenvolvido com atenção aos princípios estabelecidos pela Lei Geral de Proteção de Dados (LGPD), Lei nº 13.709/2018 \cite{lgpd}. O sistema adota o princípio da minimização de dados, coletando apenas as informações estritamente necessárias para o funcionamento da aplicação: dados de identificação do advogado (nome, e-mail, CPF, número da OAB e telefone) e dados do apenado (nome, data de nascimento e número de execução). Quanto à segurança das credenciais, as senhas dos usuários são armazenadas em formato de hash, garantindo que, mesmo em caso de acesso indevido ao banco de dados, as senhas originais não possam ser recuperadas.
 
